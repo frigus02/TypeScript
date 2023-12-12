@@ -117,22 +117,22 @@ var log = console.log;
                 _loop_1 = function () {
                     _f = _c.value;
                     _a = false;
-                    var outer = _f;
-                    log("I'm loop ".concat(outer));
+                    var outer_1 = _f;
+                    log("I'm loop ".concat(outer_1));
                     (function () { return __awaiter(_this, void 0, void 0, function () {
                         var inner;
                         return __generator(this, function (_a) {
                             switch (_a.label) {
                                 case 0:
-                                    inner = outer;
+                                    inner = outer_1;
                                     return [4 /*yield*/, sleep(2000)];
                                 case 1:
                                     _a.sent();
-                                    if (inner === outer) {
-                                        log("I'm loop ".concat(inner, " and I know I'm loop ").concat(outer));
+                                    if (inner === outer_1) {
+                                        log("I'm loop ".concat(inner, " and I know I'm loop ").concat(outer_1));
                                     }
                                     else {
-                                        log("I'm loop ".concat(inner, ", but I think I'm loop ").concat(outer));
+                                        log("I'm loop ".concat(inner, ", but I think I'm loop ").concat(outer_1));
                                     }
                                     return [2 /*return*/];
                             }

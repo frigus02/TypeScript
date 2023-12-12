@@ -136,92 +136,43 @@ function a0() {
         (function () { return x_1; });
     }
     {
-        var x = 1;
+        var x_2 = 1;
     }
 }
 function a1() {
     {
-        var x = void 0;
+        var x_3;
     }
     {
-        var x_2 = 1;
-        (function () { return x_2; });
+        var x_4 = 1;
+        (function () { return x_4; });
     }
 }
 function a2() {
     {
-        var x_3 = 1;
-        (function () { return x_3; });
+        var x_5 = 1;
+        (function () { return x_5; });
     }
     {
-        var x_4;
-        (function () { return x_4; });
+        var x_6;
+        (function () { return x_6; });
     }
 }
 function a3() {
     {
-        var x_5 = 1;
-        (function () { return x_5; });
+        var x_7 = 1;
+        (function () { return x_7; });
     }
     switch (1) {
         case 1:
-            var x_6;
-            (function () { return x_6; });
+            var x_8;
+            (function () { return x_8; });
             break;
     }
 }
 function a4() {
     {
-        var x = void 0;
-    }
-    switch (1) {
-        case 1:
-            var x_7;
-            (function () { return x_7; });
-            break;
-    }
-}
-function a5() {
-    {
-        var x_8;
-        (function () { return x_8; });
-    }
-    switch (1) {
-        case 1:
-            var x = void 0;
-            break;
-    }
-}
-function a6() {
-    switch (1) {
-        case 1:
-            var x = void 0;
-            break;
-    }
-    switch (1) {
-        case 1:
-            var x = void 0;
-            break;
-    }
-}
-function a7() {
-    switch (1) {
-        case 1:
-            var x_9;
-            (function () { return x_9; });
-            break;
-    }
-    switch (1) {
-        case 1:
-            var x = void 0;
-            break;
-    }
-}
-function a8() {
-    switch (1) {
-        case 1:
-            var x = void 0;
-            break;
+        var x_9;
     }
     switch (1) {
         case 1:
@@ -230,17 +181,66 @@ function a8() {
             break;
     }
 }
-function a9() {
-    switch (1) {
-        case 1:
-            var x_11;
-            (function () { return x_11; });
-            break;
+function a5() {
+    {
+        var x_11;
+        (function () { return x_11; });
     }
     switch (1) {
         case 1:
             var x_12;
-            (function () { return x_12; });
+            break;
+    }
+}
+function a6() {
+    switch (1) {
+        case 1:
+            var x_13;
+            break;
+    }
+    switch (1) {
+        case 1:
+            var x_14;
+            break;
+    }
+}
+function a7() {
+    switch (1) {
+        case 1:
+            var x_15;
+            (function () { return x_15; });
+            break;
+    }
+    switch (1) {
+        case 1:
+            var x_16;
+            break;
+    }
+}
+function a8() {
+    switch (1) {
+        case 1:
+            var x_17;
+            break;
+    }
+    switch (1) {
+        case 1:
+            var x_18;
+            (function () { return x_18; });
+            break;
+    }
+}
+function a9() {
+    switch (1) {
+        case 1:
+            var x_19;
+            (function () { return x_19; });
+            break;
+    }
+    switch (1) {
+        case 1:
+            var x_20;
+            (function () { return x_20; });
             break;
     }
 }

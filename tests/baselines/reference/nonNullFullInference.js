@@ -40,11 +40,11 @@ function testNonNullInferenceWithArrays(numbers: number[]) {
 function testNonNullInference(numbers) {
     var last;
     for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
-        var n = numbers_1[_i];
-        if (n % 2) {
-            return n;
+        var n_1 = numbers_1[_i];
+        if (n_1 % 2) {
+            return n_1;
         }
-        last = n;
+        last = n_1;
     }
     last;
     last;
@@ -53,11 +53,11 @@ function testNonNullInferenceWithArrays(numbers) {
     var result;
     var arr = [];
     for (var _i = 0, numbers_2 = numbers; _i < numbers_2.length; _i++) {
-        var n = numbers_2[_i];
-        if (n % 2) {
-            return [n];
+        var n_2 = numbers_2[_i];
+        if (n_2 % 2) {
+            return [n_2];
         }
-        arr.push(n);
+        arr.push(n_2);
         result = arr;
     }
     result;

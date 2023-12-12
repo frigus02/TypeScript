@@ -123,10 +123,10 @@ function f1() {
 function f2() {
     var x;
     if (typeof x === "string") {
-        var s = x;
+        var s_1 = x;
     }
     else {
-        var n = x;
+        var n_1 = x;
     }
 }
 function f3() {

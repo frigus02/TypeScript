@@ -18,8 +18,8 @@ function doubleAndReturnAsArray(x, y, z) {
     var blah = arguments[Symbol.iterator];
     var result = [];
     for (var _i = 0, _a = blah(); _i < _a.length; _i++) {
-        var arg = _a[_i];
-        result.push(arg + arg);
+        var arg_1 = _a[_i];
+        result.push(arg_1 + arg_1);
     }
     return result;
 }

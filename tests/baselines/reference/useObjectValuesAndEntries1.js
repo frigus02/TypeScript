@@ -36,7 +36,7 @@ var values6 = Object.values(i);                     // any[]
 var o = { a: 1, b: 2 };
 for (var _i = 0, _a = Object.values(o); _i < _a.length; _i++) {
     var x = _a[_i];
-    var y = x;
+    var y_1 = x;
 }
 var entries = Object.entries(o); // [string, number][]
 var values = Object.values(o); // number[]

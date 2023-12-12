@@ -33,8 +33,8 @@ var otherFunc = function (arg1, arg2) { };
 function y(arg) {
     if (guard(arg)) {
         for (var _i = 0, _a = arg.arr; _i < _a.length; _i++) {
-            var ITEM = _a[_i];
-            if (otherFunc(ITEM, arg)) {
+            var ITEM_1 = _a[_i];
+            if (otherFunc(ITEM_1, arg)) {
             }
         }
     }

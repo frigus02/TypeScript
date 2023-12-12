@@ -38,8 +38,8 @@ var aliasTopY = Y;
 if (Math.random()) {
     var Y_1 = function Y() { };
     Y_1.test = 42;
-    var topYcheck = aliasTopY;
-    var blockYcheck = Y_1;
+    var topYcheck_1 = aliasTopY;
+    var blockYcheck_1 = Y_1;
 }
 
 

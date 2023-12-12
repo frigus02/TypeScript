@@ -13,6 +13,6 @@ if (match !== null) {
 "use strict";
 var match = ''.match(/ /);
 if (match !== null) {
-    var foo = match[0];
-    var bar = match[1];
+    var foo_1 = match[0];
+    var bar_1 = match[1];
 }

@@ -37,6 +37,6 @@ if (b) {
 b = boo;
 var bboo = boo;
 if (typeof c === 'string') {
-    var boo1 = { bar: 'works' };
-    var boo2 = { bar: 1 }; // should error
+    var boo1_1 = { bar: 'works' };
+    var boo2_1 = { bar: 1 }; // should error
 }

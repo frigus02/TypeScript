@@ -99,15 +99,15 @@ Vec.prototype = {
             throw new Error("Dot product only applicable for vectors of equal length");
         }
         var sum = 0;
-        for (var i = 0; i < this.storage.length; i++) {
-            sum += (this.storage[i] * other.storage[i]);
+        for (var i_1 = 0; i_1 < this.storage.length; i_1++) {
+            sum += (this.storage[i_1] * other.storage[i_1]);
         }
         return sum;
     },
     magnitude: function () {
         var sum = 0;
-        for (var i = 0; i < this.storage.length; i++) {
-            sum += (Math.pow(this.storage[i], 2));
+        for (var i_2 = 0; i_2 < this.storage.length; i_2++) {
+            sum += (Math.pow(this.storage[i_2], 2));
         }
         return Math.sqrt(sum);
     }

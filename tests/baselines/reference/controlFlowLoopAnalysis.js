@@ -79,10 +79,10 @@ function test2() {
 // Repro from #8511
 function mapUntilCant(values, canTake, mapping) {
     var result = [];
-    for (var index = 0, length_1 = values.length; index < length_1; index++) {
-        var value = values[index];
-        if (canTake(value, index)) {
-            result.push(mapping(value, index));
+    for (var index_1 = 0, length_1 = values.length; index_1 < length_1; index_1++) {
+        var value_1 = values[index_1];
+        if (canTake(value_1, index_1)) {
+            result.push(mapping(value_1, index_1));
         }
         else {
             return result;

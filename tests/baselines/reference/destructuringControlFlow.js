@@ -48,8 +48,8 @@ value.toUpperCase();  // Error
 function f1(obj) {
     if (obj.a) {
         obj = {};
-        var a1 = obj["a"]; // string | undefined
-        var a2 = obj.a; // string | undefined
+        var a1_1 = obj["a"]; // string | undefined
+        var a2_1 = obj.a; // string | undefined
     }
 }
 function f2(obj) {
@@ -58,16 +58,16 @@ function f2(obj) {
     var b0 = obj[0], b1 = obj[1];
     (a0 = obj[0], a1 = obj[1]);
     if (obj[0] && obj[1]) {
-        var c0 = obj[0]; // number
-        var c1 = obj[1]; // string
-        var d0 = obj[0], d1 = obj[1];
-        (c0 = obj[0], c1 = obj[1]);
+        var c0_1 = obj[0]; // number
+        var c1_1 = obj[1]; // string
+        var d0_1 = obj[0], d1_1 = obj[1];
+        (c0_1 = obj[0], c1_1 = obj[1]);
     }
 }
 function f3(obj) {
     if (obj.a && obj.b) {
-        var a = obj.a, b = obj.b; // number, string
-        (a = obj.a, b = obj.b);
+        var a_1 = obj.a, b_1 = obj.b; // number, string
+        (a_1 = obj.a, b_1 = obj.b);
     }
 }
 function f4() {

@@ -115,34 +115,34 @@ var d = {
 };
 var bar = d['hello'];
 {
-    var e = {
+    var e_1 = {
         get: function (key) { return 'foobar'; },
         set: function (key) { return 'foobar'; }
     };
-    e['hello'];
-    e['hello'] = 'modified';
-    e['hello'] += 1;
-    e['hello']++;
+    e_1['hello'];
+    e_1['hello'] = 'modified';
+    e_1['hello'] += 1;
+    e_1['hello']++;
 }
 {
-    var e = {
+    var e_2 = {
         get: function (key) { return 'foobar'; },
         set: function (key, value) { return 'foobar'; }
     };
-    e['hello'];
-    e['hello'] = 'modified';
-    e['hello'] += 1;
-    e['hello']++;
+    e_2['hello'];
+    e_2['hello'] = 'modified';
+    e_2['hello'] += 1;
+    e_2['hello']++;
 }
 {
-    var e = {
+    var e_3 = {
         get: function (key) { return 'foobar'; },
         set: function (key, value) { return 'foobar'; }
     };
-    e['hello'];
-    e['hello'] = 'modified';
-    e['hello'] += 1;
-    e['hello']++;
+    e_3['hello'];
+    e_3['hello'] = 'modified';
+    e_3['hello'] += 1;
+    e_3['hello']++;
 }
 {
     ({ get: function (key) { return 'hello'; }, set: function (key, value) { } })['hello'];

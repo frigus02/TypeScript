@@ -13,7 +13,7 @@ for (let i = 0; i < 10; ++i) {
 //// [computedPropertyNames52-emit.js]
 var _a;
 var array = [];
-var _loop_1 = function (i) {
+var _loop_1 = function (i_1) {
     var _b = void 0, _c = void 0;
     array.push((_c = /** @class */ (function () {
             function C() {
@@ -21,11 +21,11 @@ var _loop_1 = function (i) {
             }
             return C;
         }()),
-        _b = i,
-        _a = i,
+        _b = i_1,
+        _a = i_1,
         _c[_a] = 100,
         _c));
 };
-for (var i = 0; i < 10; ++i) {
-    _loop_1(i);
+for (var i_1 = 0; i_1 < 10; ++i_1) {
+    _loop_1(i_1);
 }

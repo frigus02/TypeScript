@@ -11,11 +11,11 @@ for (let v of []) {
 
 //// [ES5For-of16.js]
 for (var _i = 0, _a = []; _i < _a.length; _i++) {
-    var v = _a[_i];
-    v;
+    var v_1 = _a[_i];
+    v_1;
     for (var _b = 0, _c = []; _b < _c.length; _b++) {
-        var v_1 = _c[_b];
-        var x = v_1;
-        v_1++;
+        var v_2 = _c[_b];
+        var x = v_2;
+        v_2++;
     }
 }

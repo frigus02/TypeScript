@@ -55,7 +55,7 @@ var _a;
 {
     var env_1 = { stack: [], error: void 0, hasError: false };
     try {
-        var d1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.dispose] = function () { }, _a), false), d2 = __addDisposableResource(env_1, null, false), d3 = __addDisposableResource(env_1, undefined, false);
+        var d1_1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.dispose] = function () { }, _a), false), d2_1 = __addDisposableResource(env_1, null, false), d3_1 = __addDisposableResource(env_1, undefined, false);
         for (;;) {
         }
     }

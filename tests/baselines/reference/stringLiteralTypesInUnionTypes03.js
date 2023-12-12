@@ -25,15 +25,15 @@ y = x;
 var x;
 var y = undefined;
 if (x === "foo") {
-    var a = x;
+    var a_1 = x;
 }
 else if (x !== "bar") {
-    var b = x || y;
+    var b_1 = x || y;
 }
 else {
-    var c = x;
-    var d = y;
-    var e = c || d;
+    var c_1 = x;
+    var d_1 = y;
+    var e_1 = c_1 || d_1;
 }
 x = y;
 y = x;

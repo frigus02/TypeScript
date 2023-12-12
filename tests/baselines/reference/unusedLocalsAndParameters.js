@@ -142,34 +142,34 @@ var o = {
 };
 o;
 // in a for..in statment
-for (var i in o) {
+for (var i_1 in o) {
 }
 // in a for..of statment
 for (var _i = 0, _a = [1, 2, 3]; _i < _a.length; _i++) {
-    var i = _a[_i];
+    var i_2 = _a[_i];
 }
 // in a for. statment
-for (var i = 0, n = void 0; i < 10; i++) {
+for (var i_3 = 0, n_1; i_3 < 10; i_3++) {
 }
 // in a block
 var condition = false;
 if (condition) {
-    var c = 0;
+    var c_1 = 0;
 }
 // in try/catch/finally
 try {
-    var a = 0;
+    var a_1 = 0;
 }
 catch (e) {
-    var c = 1;
+    var c_2 = 1;
 }
 finally {
-    var c = 0;
+    var c_3 = 0;
 }
 // in a namespace
 var N;
 (function (N) {
     var x;
 })(N || (N = {}));
-for (var x = void 0, z = (void 0).z; (x); )
+for (var x_1, z_1 = (void 0).z; (x_1); )
     ;

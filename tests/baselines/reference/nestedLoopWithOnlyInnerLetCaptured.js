@@ -9,12 +9,12 @@ for (let a1 of [])
 
 //// [nestedLoopWithOnlyInnerLetCaptured.js]
 for (var _i = 0, _a = []; _i < _a.length; _i++) {
-    var a1 = _a[_i];
-    var _loop_1 = function (a2) {
-        doSomething(function () { return a2; });
+    var a1_1 = _a[_i];
+    var _loop_1 = function (a2_1) {
+        doSomething(function () { return a2_1; });
     };
-    for (var _b = 0, _c = a1.someArray; _b < _c.length; _b++) {
-        var a2 = _c[_b];
-        _loop_1(a2);
+    for (var _b = 0, _c = a1_1.someArray; _b < _c.length; _b++) {
+        var a2_1 = _c[_b];
+        _loop_1(a2_1);
     }
 }

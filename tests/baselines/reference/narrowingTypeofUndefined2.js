@@ -28,10 +28,10 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 function fn(arg) {
     if (typeof arg !== "undefined") {
         takeArray(arg);
-        var n = arg;
+        var n_1 = arg;
         for (var _i = 0, arg_1 = arg; _i < arg_1.length; _i++) {
-            var p = arg_1[_i];
+            var p_1 = arg_1[_i];
         }
-        var m = __spreadArray([], arg, true);
+        var m_1 = __spreadArray([], arg, true);
     }
 }

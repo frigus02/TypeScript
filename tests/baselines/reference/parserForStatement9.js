@@ -9,7 +9,7 @@ for (let {x = 'a' in {}} = {}; !x; x = !x) console.log(x)
 
 //// [parserForStatement9.js]
 // repro from https://github.com/microsoft/TypeScript/issues/54769
-for (var _a = [][0], x = _a === void 0 ? 'a' in {} : _a; !x; x = !x)
-    console.log(x);
-for (var _b = {}.x, x = _b === void 0 ? 'a' in {} : _b; !x; x = !x)
-    console.log(x);
+for (var _a = [][0], x_1 = _a === void 0 ? 'a' in {} : _a; !x_1; x_1 = !x_1)
+    console.log(x_1);
+for (var _b = {}.x, x_2 = _b === void 0 ? 'a' in {} : _b; !x_2; x_2 = !x_2)
+    console.log(x_2);

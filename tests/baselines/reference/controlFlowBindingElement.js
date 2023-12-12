@@ -93,46 +93,46 @@
 
 //// [controlFlowBindingElement.js]
 {
-    var data = { param: 'value' };
-    var _a = data.param, param = _a === void 0 ? (function () { throw new Error('param is not defined'); })() : _a;
-    console.log(param); // should not trigger 'Unreachable code detected.'    
+    var data_1 = { param: 'value' };
+    var _a = data_1.param, param_1 = _a === void 0 ? (function () { throw new Error('param is not defined'); })() : _a;
+    console.log(param_1); // should not trigger 'Unreachable code detected.'    
 }
 {
-    var data = { param: 'value' };
-    var foo = "";
-    var _b = data.param, param = _b === void 0 ? (function () { throw new Error('param is not defined'); })() : _b;
-    foo; // should be string  
-}
-{
-    var data = { param: 'value' };
+    var data_2 = { param: 'value' };
     var foo_1 = "";
-    var _c = data.param, param = _c === void 0 ? (function () { foo_1 = undefined; })() : _c;
-    foo_1; // should be string | undefined
+    var _b = data_2.param, param_2 = _b === void 0 ? (function () { throw new Error('param is not defined'); })() : _b;
+    foo_1; // should be string  
 }
 {
-    var data = { param: 'value' };
-    var foo = "";
-    var _d = data.param, param = _d === void 0 ? (function () { return "" + 1; })() : _d;
-    foo; // should be string
+    var data_3 = { param: 'value' };
+    var foo_2 = "";
+    var _c = data_3.param, param_3 = _c === void 0 ? (function () { foo_2 = undefined; })() : _c;
+    foo_2; // should be string | undefined
 }
 {
-    var foo_2;
-    var window_1 = {};
-    window_1.window = window_1;
-    var _e = window_1, _f = (function () { foo_2 = ""; return 'window'; })(), _g = (function () { return 'window'; })(), bar = _e[_f][_g];
-    foo_2; // should be string
-}
-{
-    var foo_3;
-    var window_2 = {};
-    window_2.window = window_2;
-    var _h = window_2, _j = (function () { return 'window'; })(), _k = (function () { foo_3 = ""; return 'window'; })(), bar = _h[_j][_k];
+    var data_4 = { param: 'value' };
+    var foo_3 = "";
+    var _d = data_4.param, param_4 = _d === void 0 ? (function () { return "" + 1; })() : _d;
     foo_3; // should be string
 }
 {
     var foo_4;
+    var window_1 = {};
+    window_1.window = window_1;
+    var _e = window_1, _f = (function () { foo_4 = ""; return 'window'; })(), _g = (function () { return 'window'; })(), bar_1 = _e[_f][_g];
+    foo_4; // should be string
+}
+{
+    var foo_5;
+    var window_2 = {};
+    window_2.window = window_2;
+    var _h = window_2, _j = (function () { return 'window'; })(), _k = (function () { foo_5 = ""; return 'window'; })(), bar_2 = _h[_j][_k];
+    foo_5; // should be string
+}
+{
+    var foo_6;
     var window_3 = {};
     window_3.window = window_3;
-    var _l = window_3, _m = (function () { return 'window'; })(), _o = (function () { return 'window'; })(), _p = _l[_m][_o], bar = _p === void 0 ? (function () { foo_4 = ""; return window_3; })() : _p;
-    foo_4; // should be string | undefined
+    var _l = window_3, _m = (function () { return 'window'; })(), _o = (function () { return 'window'; })(), _p = _l[_m][_o], bar_3 = _p === void 0 ? (function () { foo_6 = ""; return window_3; })() : _p;
+    foo_6; // should be string | undefined
 }

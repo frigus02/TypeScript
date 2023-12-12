@@ -28,20 +28,20 @@ if (typeof b === "boolean") {
 var a;
 var b;
 if (typeof a === "number") {
-    var c = a;
+    var c_1 = a;
 }
 if (typeof a === "string") {
-    var c = a;
+    var c_2 = a;
 }
 if (typeof a === "boolean") {
-    var c = a;
+    var c_3 = a;
 }
 if (typeof b === "number") {
-    var c = b;
+    var c_4 = b;
 }
 if (typeof b === "string") {
-    var c = b;
+    var c_5 = b;
 }
 if (typeof b === "boolean") {
-    var c = b;
+    var c_6 = b;
 }

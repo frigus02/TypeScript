@@ -70,8 +70,8 @@ function createProgram(rootFiles, compilerOptionsJson) {
     var settings = ts.convertCompilerOptionsFromJson(config.config["compilerOptions"], basePath);
     if (!settings.options) {
         for (var _i = 0, _b = settings.errors; _i < _b.length; _i++) {
-            var err = _b[_i];
-            printError(err);
+            var err_1 = _b[_i];
+            printError(err_1);
         }
         return undefined;
     }

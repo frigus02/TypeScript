@@ -438,7 +438,7 @@ try {
     {
         var env_3 = { stack: [], error: void 0, hasError: false };
         try {
-            var d19 = __addDisposableResource(env_3, (_b = {}, _b[Symbol.asyncDispose] = function () {
+            var d19_1 = __addDisposableResource(env_3, (_b = {}, _b[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -458,14 +458,14 @@ try {
     try {
         switch (Math.random()) {
             case 0:
-                var d20 = __addDisposableResource(env_1, (_c = {}, _c[Symbol.asyncDispose] = function () {
+                var d20_1 = __addDisposableResource(env_1, (_c = {}, _c[Symbol.asyncDispose] = function () {
                     return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                         return [2 /*return*/];
                     }); });
                 }, _c), true);
                 break;
             case 1:
-                var d21 = __addDisposableResource(env_1, (_d = {}, _d[Symbol.asyncDispose] = function () {
+                var d21_1 = __addDisposableResource(env_1, (_d = {}, _d[Symbol.asyncDispose] = function () {
                     return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                         return [2 /*return*/];
                     }); });
@@ -487,7 +487,7 @@ try {
         try {
             switch (0) {
                 case 0:
-                    var d22 = __addDisposableResource(env_4, (_e = {}, _e[Symbol.asyncDispose] = function () {
+                    var d22_1 = __addDisposableResource(env_4, (_e = {}, _e[Symbol.asyncDispose] = function () {
                         return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                             return [2 /*return*/];
                         }); });
@@ -508,7 +508,7 @@ try {
     try {
         var env_5 = { stack: [], error: void 0, hasError: false };
         try {
-            var d23 = __addDisposableResource(env_5, (_f = {}, _f[Symbol.asyncDispose] = function () {
+            var d23_1 = __addDisposableResource(env_5, (_f = {}, _f[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -527,7 +527,7 @@ try {
     catch (_r) {
         var env_6 = { stack: [], error: void 0, hasError: false };
         try {
-            var d24 = __addDisposableResource(env_6, (_g = {}, _g[Symbol.asyncDispose] = function () {
+            var d24_1 = __addDisposableResource(env_6, (_g = {}, _g[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -546,7 +546,7 @@ try {
     finally {
         var env_7 = { stack: [], error: void 0, hasError: false };
         try {
-            var d25 = __addDisposableResource(env_7, (_h = {}, _h[Symbol.asyncDispose] = function () {
+            var d25_1 = __addDisposableResource(env_7, (_h = {}, _h[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -565,7 +565,7 @@ try {
     if (true) {
         var env_8 = { stack: [], error: void 0, hasError: false };
         try {
-            var d26 = __addDisposableResource(env_8, (_j = {}, _j[Symbol.asyncDispose] = function () {
+            var d26_1 = __addDisposableResource(env_8, (_j = {}, _j[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -584,7 +584,7 @@ try {
     else {
         var env_9 = { stack: [], error: void 0, hasError: false };
         try {
-            var d27 = __addDisposableResource(env_9, (_k = {}, _k[Symbol.asyncDispose] = function () {
+            var d27_1 = __addDisposableResource(env_9, (_k = {}, _k[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -603,7 +603,7 @@ try {
     while (true) {
         var env_10 = { stack: [], error: void 0, hasError: false };
         try {
-            var d28 = __addDisposableResource(env_10, (_l = {}, _l[Symbol.asyncDispose] = function () {
+            var d28_1 = __addDisposableResource(env_10, (_l = {}, _l[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -623,7 +623,7 @@ try {
     do {
         var env_11 = { stack: [], error: void 0, hasError: false };
         try {
-            var d29 = __addDisposableResource(env_11, (_m = {}, _m[Symbol.asyncDispose] = function () {
+            var d29_1 = __addDisposableResource(env_11, (_m = {}, _m[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -643,7 +643,7 @@ try {
     for (;;) {
         var env_12 = { stack: [], error: void 0, hasError: false };
         try {
-            var d30 = __addDisposableResource(env_12, (_o = {}, _o[Symbol.asyncDispose] = function () {
+            var d30_1 = __addDisposableResource(env_12, (_o = {}, _o[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -660,10 +660,10 @@ try {
                 await result_11;
         }
     }
-    for (var x in {}) {
+    for (var x_1 in {}) {
         var env_13 = { stack: [], error: void 0, hasError: false };
         try {
-            var d31 = __addDisposableResource(env_13, (_p = {}, _p[Symbol.asyncDispose] = function () {
+            var d31_1 = __addDisposableResource(env_13, (_p = {}, _p[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });
@@ -680,10 +680,10 @@ try {
         }
     }
     for (var _i = 0, _s = []; _i < _s.length; _i++) {
-        var x = _s[_i];
+        var x_2 = _s[_i];
         var env_14 = { stack: [], error: void 0, hasError: false };
         try {
-            var d32 = __addDisposableResource(env_14, (_q = {}, _q[Symbol.asyncDispose] = function () {
+            var d32_1 = __addDisposableResource(env_14, (_q = {}, _q[Symbol.asyncDispose] = function () {
                 return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                     return [2 /*return*/];
                 }); });

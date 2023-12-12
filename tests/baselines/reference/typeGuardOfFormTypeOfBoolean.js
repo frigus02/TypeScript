@@ -135,10 +135,10 @@ else {
     c = boolOrC; // C
 }
 if (typeof strOrNum === "boolean") {
-    var z1 = strOrNum; // {}
+    var z1_1 = strOrNum; // {}
 }
 else {
-    var z2 = strOrNum; // string | number
+    var z2_1 = strOrNum; // string | number
 }
 // A type guard of the form typeof x !== s, where s is a string literal,
 //  - when true, narrows the type of x by typeof x === s when false, or
@@ -168,8 +168,8 @@ else {
     bool = boolOrC; // boolean
 }
 if (typeof strOrNum !== "boolean") {
-    var z1 = strOrNum; // string | number
+    var z1_2 = strOrNum; // string | number
 }
 else {
-    var z2 = strOrNum; // {}
+    var z2_2 = strOrNum; // {}
 }

@@ -29,8 +29,8 @@ fold(
 // Example from #6037
 function fold(values, result, fold) {
     for (var _i = 0, values_1 = values; _i < values_1.length; _i++) {
-        var value = values_1[_i];
-        result = fold(result, value);
+        var value_1 = values_1[_i];
+        result = fold(result, value_1);
     }
     return result;
 }

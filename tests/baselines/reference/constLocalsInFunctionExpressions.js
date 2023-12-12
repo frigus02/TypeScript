@@ -44,7 +44,7 @@ function f5() {
 function f1() {
     var x = getStringOrNumber();
     if (typeof x === "string") {
-        var f = function () { return x.length; };
+        var f_1 = function () { return x.length; };
     }
 }
 function f2() {
@@ -57,7 +57,7 @@ function f2() {
 function f3() {
     var x = getStringOrNumber();
     if (typeof x === "string") {
-        var f = function () { return x.length; };
+        var f_2 = function () { return x.length; };
     }
 }
 function f4() {
@@ -70,6 +70,6 @@ function f4() {
 function f5() {
     var x = getStringOrNumber();
     if (typeof x === "string") {
-        var f = function () { return function () { return x.length; }; };
+        var f_3 = function () { return function () { return x.length; }; };
     }
 }

@@ -24,7 +24,7 @@ if (foo[x] === undefined) {
     foo[x] = 1;
 }
 else {
-    var nu = foo[x];
-    var n = foo[x];
+    var nu_1 = foo[x];
+    var n_1 = foo[x];
     foo[x]++;
 }

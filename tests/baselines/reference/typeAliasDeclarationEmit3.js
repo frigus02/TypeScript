@@ -22,7 +22,7 @@ function f3(): void {
 
 //// [typeAliasDeclarationEmit3.js]
 function f1() {
-    for (var i = 0; i < 1; i++)
+    for (var i_1 = 0; i_1 < 1; i_1++)
         ;
     console.log('f1');
 }

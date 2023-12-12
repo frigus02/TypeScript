@@ -273,8 +273,8 @@ function getFunction(item) {
 }
 function f10(x) {
     if (isFunction(x)) {
-        var f = x;
-        var t = x;
+        var f_1 = x;
+        var t_1 = x;
     }
 }
 function f11(x) {

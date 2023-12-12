@@ -334,13 +334,13 @@ function func3(value) {
 }
 function WorksProperly(data) {
     if (data.Name === "TypeA") {
-        var value1 = data.Value1;
+        var value1_1 = data.Value1;
     }
 }
 function DoesNotWork(data) {
     if (isType(data)) {
         if (data.Name === "TypeA") {
-            var value1 = data.Value1;
+            var value1_2 = data.Value1;
         }
     }
 }

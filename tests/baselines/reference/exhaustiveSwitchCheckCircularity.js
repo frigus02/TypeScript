@@ -59,13 +59,13 @@ function f() {
 function functionC() {
     var unionVal = "A";
     while (true) {
-        var key = void 0;
+        var key_1 = void 0;
         switch (unionVal) {
             case "A": {
-                key = "AA";
+                key_1 = "AA";
                 break;
             }
         }
-        functionB(key);
+        functionB(key_1);
     }
 }

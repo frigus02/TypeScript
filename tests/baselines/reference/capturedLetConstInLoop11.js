@@ -17,17 +17,17 @@ function foo() {
 
 //// [capturedLetConstInLoop11.js]
 var _loop_1 = function () {
-    var x = 1;
-    (function () { return x; });
+    var x_1 = 1;
+    (function () { return x_1; });
 };
 for (;;) {
     _loop_1();
 }
 function foo() {
     var _loop_2 = function () {
-        var a = 0;
-        switch (a) {
-            case 0: return { value: function () { return a; } };
+        var a_1 = 0;
+        switch (a_1) {
+            case 0: return { value: function () { return a_1; } };
         }
     };
     for (;;) {

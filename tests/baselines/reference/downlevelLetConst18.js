@@ -34,47 +34,47 @@ for (let x; ;) {
 
 //// [downlevelLetConst18.js]
 'use strict';
-var _loop_1 = function (x) {
-    function foo() { x; }
+var _loop_1 = function (x_1) {
+    function foo() { x_1; }
     ;
 };
-for (var x = void 0;;) {
-    _loop_1(x);
+for (var x_1;;) {
+    _loop_1(x_1);
 }
-var _loop_2 = function (x) {
-    function foo1() { x; }
+var _loop_2 = function (x_2) {
+    function foo1() { x_2; }
     ;
 };
-for (var x = void 0;;) {
-    _loop_2(x);
+for (var x_2;;) {
+    _loop_2(x_2);
 }
-var _loop_3 = function (x) {
-    (function () { x; })();
+var _loop_3 = function (x_3) {
+    (function () { x_3; })();
 };
-for (var x = void 0;;) {
-    _loop_3(x);
+for (var x_3;;) {
+    _loop_3(x_3);
 }
-var _loop_4 = function (x) {
-    (function () { x; })();
+var _loop_4 = function (x_4) {
+    (function () { x_4; })();
 };
-for (var x = 1;;) {
-    _loop_4(x);
+for (var x_4 = 1;;) {
+    _loop_4(x_4);
 }
-var _loop_5 = function (x) {
-    ({ foo: function () { x; } });
+var _loop_5 = function (x_5) {
+    ({ foo: function () { x_5; } });
 };
-for (var x = void 0;;) {
-    _loop_5(x);
+for (var x_5;;) {
+    _loop_5(x_5);
 }
-var _loop_6 = function (x) {
-    ({ get foo() { return x; } });
+var _loop_6 = function (x_6) {
+    ({ get foo() { return x_6; } });
 };
-for (var x = void 0;;) {
-    _loop_6(x);
+for (var x_6;;) {
+    _loop_6(x_6);
 }
-var _loop_7 = function (x) {
-    ({ set foo(v) { x; } });
+var _loop_7 = function (x_7) {
+    ({ set foo(v) { x_7; } });
 };
-for (var x = void 0;;) {
-    _loop_7(x);
+for (var x_7;;) {
+    _loop_7(x_7);
 }

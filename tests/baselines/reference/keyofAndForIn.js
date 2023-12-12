@@ -42,30 +42,30 @@ function f1(obj, k) {
     var b = k in obj;
     var k1;
     for (k1 in obj) {
-        var x1 = obj[k1];
+        var x1_1 = obj[k1];
     }
-    for (var k2 in obj) {
-        var x2 = obj[k2];
+    for (var k2_1 in obj) {
+        var x2_1 = obj[k2_1];
     }
 }
 function f2(obj, k) {
     var b = k in obj;
     var k1;
     for (k1 in obj) {
-        var x1 = obj[k1];
+        var x1_2 = obj[k1];
     }
-    for (var k2 in obj) {
-        var x2 = obj[k2];
+    for (var k2_2 in obj) {
+        var x2_2 = obj[k2_2];
     }
 }
 function f3(obj, k) {
     var b = k in obj;
     var k1;
     for (k1 in obj) {
-        var x1 = obj[k1];
+        var x1_3 = obj[k1];
     }
-    for (var k2 in obj) {
-        var x2 = obj[k2];
+    for (var k2_3 in obj) {
+        var x2_3 = obj[k2_3];
     }
 }
 

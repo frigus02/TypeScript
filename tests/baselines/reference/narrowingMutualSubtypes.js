@@ -211,17 +211,17 @@ function example(x) {
 function checksArrayOrObject1(obj) {
     // "accidentally" guards the first branch on the length
     if (Array.isArray(obj) && obj.length) {
-        for (var key in obj) {
-            if (obj[key] !== undefined) {
-                console.log(obj[key]);
+        for (var key_1 in obj) {
+            if (obj[key_1] !== undefined) {
+                console.log(obj[key_1]);
             }
         }
     }
     else {
         // 'obj' should probably not include an array type here.
-        for (var key in obj) {
-            if (obj[key] !== undefined) {
-                console.log(obj[key]);
+        for (var key_2 in obj) {
+            if (obj[key_2] !== undefined) {
+                console.log(obj[key_2]);
             }
         }
     }
@@ -229,17 +229,17 @@ function checksArrayOrObject1(obj) {
 function checksArrayOrObject2(obj) {
     if (Array.isArray(obj)) {
         // obj should only be an array type here
-        for (var key in obj) {
-            if (obj[key] !== undefined) {
-                console.log(obj[key]);
+        for (var key_3 in obj) {
+            if (obj[key_3] !== undefined) {
+                console.log(obj[key_3]);
             }
         }
     }
     else {
         // 'obj' should probably not include an array type here.
-        for (var key in obj) {
-            if (obj[key] !== undefined) {
-                console.log(obj[key]);
+        for (var key_4 in obj) {
+            if (obj[key_4] !== undefined) {
+                console.log(obj[key_4]);
             }
         }
     }

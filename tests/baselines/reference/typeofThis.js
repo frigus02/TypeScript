@@ -207,20 +207,20 @@ var Test9 = /** @class */ (function () {
     }
     Test9.prototype.f = function () {
         if (this instanceof Test9D1) {
-            var d1 = this;
-            d1.f1();
+            var d1_1 = this;
+            d1_1.f1();
         }
         if (this instanceof Test9D2) {
-            var d2 = this;
-            d2.f2();
+            var d2_1 = this;
+            d2_1.f2();
         }
     };
     Test9.prototype.g = function () {
         if (this.no === 1) {
-            var no = this.no;
+            var no_1 = this.no;
         }
         if (this.this === 1) {
-            var no = this.this;
+            var no_2 = this.this;
         }
     };
     return Test9;
@@ -244,9 +244,9 @@ var Test10 = /** @class */ (function () {
         var a = undefined;
         if (this.a) {
             var a_1 = undefined; // should narrow to { b?: string }
-            var b = undefined;
+            var b_1 = undefined;
             if (this.a.b) {
-                var b_1 = undefined; // should narrow to string
+                var b_2 = undefined; // should narrow to string
             }
         }
     };
@@ -259,7 +259,7 @@ var Test11 = /** @class */ (function () {
         var o = this;
         var bar = {};
         if (o.this && o.this.x) {
-            var y = o.this.x; // should narrow to string
+            var y_1 = o.this.x; // should narrow to string
         }
     };
     return Test11;
@@ -273,11 +273,11 @@ var Tests12 = /** @class */ (function () {
         for (;;) { }
     };
     Tests12.prototype.test3 = function () {
-        for (var dummy in []) { }
+        for (var dummy_1 in []) { }
     };
     Tests12.prototype.test4 = function () {
         for (var _i = 0, _a = []; _i < _a.length; _i++) {
-            var dummy = _a[_i];
+            var dummy_2 = _a[_i];
         }
     };
     return Tests12;

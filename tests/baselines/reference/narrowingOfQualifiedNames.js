@@ -95,7 +95,7 @@ function init(properties) {
     if (properties.foo) {
         properties.foo; // type is { aaa: string; bbb: string; }
         for (var _i = 0, _a = [1, 2, 3]; _i < _a.length; _i++) {
-            var x = _a[_i];
+            var x_1 = _a[_i];
             properties.foo; // type is { aaa: string; bbb: string; }
         }
     }
@@ -103,13 +103,13 @@ function init(properties) {
 function init2(foo) {
     if (foo.a) {
         for (var _i = 0, _a = [1]; _i < _a.length; _i++) {
-            var _ = _a[_i];
+            var _1 = _a[_i];
             if (foo.a.b) {
                 for (var _b = 0, _c = [1]; _b < _c.length; _b++) {
-                    var _1 = _c[_b];
+                    var _2 = _c[_b];
                     if (foo.a.b.c) {
                         for (var _d = 0, _e = [1]; _d < _e.length; _d++) {
-                            var _2 = _e[_d];
+                            var _3 = _e[_d];
                         }
                     }
                 }
@@ -119,13 +119,13 @@ function init2(foo) {
 }
 function handleDogBroken(pet) {
     if (pet.type === 'dog') {
-        var _okay1 = pet.saysWoof;
-        var _okay2 = pet.saysWoof;
+        var _okay1_1 = pet.saysWoof;
+        var _okay2_1 = pet.saysWoof;
     }
 }
 function handleDogWorking(pet) {
     if (pet.type === 'dog') {
-        var _okay1 = pet.saysWoof;
-        var _okay2 = pet.saysWoof;
+        var _okay1_2 = pet.saysWoof;
+        var _okay2_2 = pet.saysWoof;
     }
 }

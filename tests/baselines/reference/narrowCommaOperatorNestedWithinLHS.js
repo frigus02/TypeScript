@@ -25,10 +25,10 @@ function isNumber(obj) {
     return true; // method implementation irrelevant
 }
 if (typeof (otherValue(), value).inner === 'number') {
-    var a = value.inner; // number
-    var b = (otherValue(), value).inner; // string | number , but should be number
+    var a_1 = value.inner; // number
+    var b_1 = (otherValue(), value).inner; // string | number , but should be number
 }
 if (isNumber((otherValue(), value).inner)) {
-    var a = value.inner; // number
-    var b = (otherValue(), value).inner; // string | number , but should be number
+    var a_2 = value.inner; // number
+    var b_2 = (otherValue(), value).inner; // string | number , but should be number
 }

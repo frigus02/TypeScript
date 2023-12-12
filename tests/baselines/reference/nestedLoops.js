@@ -27,21 +27,21 @@ var Test = /** @class */ (function () {
     function Test() {
         var outerArray = [1, 2, 3];
         var innerArray = [1, 2, 3];
-        var _loop_1 = function (outer) {
-            var _loop_2 = function (inner) {
+        var _loop_1 = function (outer_1) {
+            var _loop_2 = function (inner_1) {
                 this_1.aFunction(function (newValue, oldValue) {
-                    var x = outer + inner + newValue;
+                    var x = outer_1 + inner_1 + newValue;
                 });
             };
             for (var _a = 0, innerArray_1 = innerArray; _a < innerArray_1.length; _a++) {
-                var inner = innerArray_1[_a];
-                _loop_2(inner);
+                var inner_1 = innerArray_1[_a];
+                _loop_2(inner_1);
             }
         };
         var this_1 = this;
         for (var _i = 0, outerArray_1 = outerArray; _i < outerArray_1.length; _i++) {
-            var outer = outerArray_1[_i];
-            _loop_1(outer);
+            var outer_1 = outerArray_1[_i];
+            _loop_1(outer_1);
         }
     }
     Test.prototype.aFunction = function (func) {

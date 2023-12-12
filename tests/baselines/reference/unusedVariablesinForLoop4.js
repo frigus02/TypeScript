@@ -11,8 +11,8 @@ function f1 () {
 //// [unusedVariablesinForLoop4.js]
 function f1() {
     for (var _i = 0, _a = ["a", "b", "c"]; _i < _a.length; _i++) {
-        var elem = _a[_i];
-        elem;
+        var elem_1 = _a[_i];
+        elem_1;
         var x = 20;
     }
 }

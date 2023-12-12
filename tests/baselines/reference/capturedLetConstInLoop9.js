@@ -141,81 +141,81 @@ function foo3 () {
 }
 
 //// [capturedLetConstInLoop9.js]
-var _loop_1 = function (x) {
-    var x_1;
-    (function () { return x_1; });
+var _loop_1 = function (x_1) {
+    var x_2;
+    (function () { return x_2; });
     {
-        var x_2;
-        (function () { return x_2; });
-    }
-    try { }
-    catch (e) {
         var x_3;
         (function () { return x_3; });
     }
-    switch (x_1) {
+    try { }
+    catch (e) {
+        var x_4;
+        (function () { return x_4; });
+    }
+    switch (x_2) {
         case 1:
-            var x_4;
-            (function () { return x_4; });
+            var x_5;
+            (function () { return x_5; });
             break;
     }
     var _loop_2 = function () {
-        var x_5;
-        (function () { return x_5; });
+        var x_6;
+        (function () { return x_6; });
     };
     while (1 == 1) {
         _loop_2();
     }
-    var A = /** @class */ (function () {
+    var A_1 = /** @class */ (function () {
         function A() {
         }
         A.prototype.m = function () {
-            return x_1 + 1;
+            return x_2 + 1;
         };
         return A;
     }());
 };
-for (var x = 0; x < 1; ++x) {
-    _loop_1(x);
+for (var x_1 = 0; x_1 < 1; ++x_1) {
+    _loop_1(x_1);
 }
 function foo() {
-    var _loop_3 = function (a) {
+    var _loop_3 = function (a_1) {
         var _b;
-        if (a === 1) {
+        if (a_1 === 1) {
             return "break";
         }
-        if (a === 2) {
+        if (a_1 === 2) {
             return "break-l0";
         }
         for (var _c = 0, _d = []; _c < _d.length; _c++) {
-            var b = _d[_c];
+            var b_1 = _d[_c];
             _b = [{ x: 1, y: 2 }][0], x = _b.x, z = _b.y;
-            if (b === 1) {
+            if (b_1 === 1) {
                 break;
             }
-            if (b === 2) {
+            if (b_1 === 2) {
                 return "break-l0";
             }
-            l1: if (b === 3) {
+            l1: if (b_1 === 3) {
                 break l1;
             }
             return { value: 50 };
         }
-        var _loop_4 = function (b) {
+        var _loop_4 = function (b_2) {
             var _g;
             _g = [{ x1: 1, y: arguments_1.length }][0], x1 = _g.x1, z1 = _g.y;
-            if (b === 1) {
+            if (b_2 === 1) {
                 return "break";
             }
-            if (b === 2) {
+            if (b_2 === 2) {
                 return "break-l0";
             }
-            (function () { return b; });
+            (function () { return b_2; });
             return { value: 100 };
         };
         for (var _e = 0, _f = []; _e < _f.length; _e++) {
-            var b = _f[_e];
-            var state_2 = _loop_4(b);
+            var b_2 = _f[_e];
+            var state_2 = _loop_4(b_2);
             if (typeof state_2 === "object")
                 return state_2;
             if (state_2 === "break")
@@ -224,12 +224,12 @@ function foo() {
                 case "break-l0": return state_2;
             }
         }
-        (function () { return a; });
+        (function () { return a_1; });
     };
     var arguments_1 = arguments, x, z, x1, z1;
     l0: for (var _i = 0, _a = []; _i < _a.length; _i++) {
-        var a = _a[_i];
-        var state_1 = _loop_3(a);
+        var a_1 = _a[_i];
+        var state_1 = _loop_3(a_1);
         if (typeof state_1 === "object")
             return state_1.value;
         if (state_1 === "break")
@@ -245,28 +245,28 @@ function foo() {
 }
 function foo2() {
     for (var _i = 0, _a = []; _i < _a.length; _i++) {
-        var x = _a[_i];
-        if (x === 1) {
+        var x_7 = _a[_i];
+        if (x_7 === 1) {
             break;
         }
-        else if (x === 2) {
+        else if (x_7 === 2) {
             continue;
         }
         while (1 === 1) {
-            if (x) {
+            if (x_7) {
                 break;
             }
             else {
                 continue;
             }
         }
-        switch (x) {
+        switch (x_7) {
             case 1: break;
             case 2: continue;
         }
         for (var _b = 0, _c = []; _b < _c.length; _b++) {
-            var y = _c[_b];
-            switch (y) {
+            var y_1 = _c[_b];
+            switch (y_1) {
                 case 1: break;
                 case 2: continue;
             }
@@ -279,24 +279,24 @@ var C = /** @class */ (function () {
     }
     C.prototype.foo = function () {
         var _this = this;
-        var _loop_5 = function (i) {
-            var f = function () { return _this.N * i; };
+        var _loop_5 = function (i_1) {
+            var f_1 = function () { return _this.N * i_1; };
         };
-        for (var i = 0; i < 100; i++) {
-            _loop_5(i);
+        for (var i_1 = 0; i_1 < 100; i_1++) {
+            _loop_5(i_1);
         }
     };
     return C;
 }());
 function foo3() {
     var x = arguments.length;
-    var _loop_6 = function (y) {
-        var z = arguments_2.length;
-        (function () { return y + z + arguments.length; });
+    var _loop_6 = function (y_2) {
+        var z_1 = arguments_2.length;
+        (function () { return y_2 + z_1 + arguments.length; });
     };
     var arguments_2 = arguments;
     for (var _i = 0, _a = []; _i < _a.length; _i++) {
-        var y = _a[_i];
-        _loop_6(y);
+        var y_2 = _a[_i];
+        _loop_6(y_2);
     }
 }

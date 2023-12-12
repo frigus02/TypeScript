@@ -91,21 +91,21 @@ function f2(x: A | B) {
 // Repro from #9977
 function insertInterface(callbackType) {
     for (var _i = 0, _a = callbackType.members; _i < _a.length; _i++) {
-        var memberType = _a[_i];
-        if (memberType.type === "const") {
-            memberType.idlType; // string
+        var memberType_1 = _a[_i];
+        if (memberType_1.type === "const") {
+            memberType_1.idlType; // string
         }
-        else if (memberType.type === "operation") {
-            memberType.idlType.origin; // string
-            memberType.idlType;
+        else if (memberType_1.type === "operation") {
+            memberType_1.idlType.origin; // string
+            memberType_1.idlType;
         }
     }
 }
 function insertInterface2(callbackType) {
     for (var _i = 0, _a = callbackType.members; _i < _a.length; _i++) {
-        var memberType = _a[_i];
-        if (memberType.type === "operation") {
-            memberType.idlType.origin; // string
+        var memberType_2 = _a[_i];
+        if (memberType_2.type === "operation") {
+            memberType_2.idlType.origin; // string
         }
     }
 }

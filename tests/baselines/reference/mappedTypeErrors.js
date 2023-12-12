@@ -196,8 +196,8 @@ function f21() {
     var x3 = objAndPartial({ x: 0, y: 0 }, { x: 1, y: 1, z: 1 }); // Error
 }
 function setState(obj, props) {
-    for (var k in props) {
-        obj[k] = props[k];
+    for (var k_1 in props) {
+        obj[k_1] = props[k_1];
     }
 }
 var foo = { a: "hello", b: 42 };
@@ -212,8 +212,8 @@ var C = /** @class */ (function () {
     function C() {
     }
     C.prototype.setState = function (props) {
-        for (var k in props) {
-            this.state[k] = props[k];
+        for (var k_2 in props) {
+            this.state[k_2] = props[k_2];
         }
     };
     return C;

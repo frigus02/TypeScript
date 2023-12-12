@@ -1112,8 +1112,8 @@ while (((_u = arr[i]) === null || _u === void 0 ? void 0 : _u.tag) === "left") {
 }
 function f50(obj) {
     var _a;
-    for (var key in (_a = obj.main) === null || _a === void 0 ? void 0 : _a.childs) {
-        if (obj.main.childs[key] === obj) {
+    for (var key_1 in (_a = obj.main) === null || _a === void 0 ? void 0 : _a.childs) {
+        if (obj.main.childs[key_1] === obj) {
             return obj;
         }
     }

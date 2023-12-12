@@ -158,8 +158,8 @@ function h3() {
     var x;
     x = "0";
     while (cond) {
-        var y = asNumber(x);
-        x = y + 1;
+        var y_1 = asNumber(x);
+        x = y_1 + 1;
         x;
     }
 }
@@ -168,8 +168,8 @@ function h4() {
     x = "0";
     while (cond) {
         x;
-        var y = asNumber(x);
-        x = y + 1;
+        var y_2 = asNumber(x);
+        x = y_2 + 1;
         x;
     }
 }

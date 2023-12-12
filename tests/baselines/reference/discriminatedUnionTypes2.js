@@ -191,12 +191,12 @@ f15({ value: 10 });
 f15({ error: new Error("boom") });
 function f20(carrier) {
     if (carrier.error === null) {
-        var error = carrier.error;
-        var data = carrier.data;
+        var error_1 = carrier.error;
+        var data_1 = carrier.data;
     }
     else {
-        var error = carrier.error;
-        var data = carrier.data;
+        var error_2 = carrier.error;
+        var data_2 = carrier.data;
     }
 }
 function f30(foo) {

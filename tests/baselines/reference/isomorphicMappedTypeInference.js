@@ -190,21 +190,21 @@ function unbox(x) {
 }
 function boxify(obj) {
     var result = {};
-    for (var k in obj) {
-        result[k] = box(obj[k]);
+    for (var k_1 in obj) {
+        result[k_1] = box(obj[k_1]);
     }
     return result;
 }
 function unboxify(obj) {
     var result = {};
-    for (var k in obj) {
-        result[k] = unbox(obj[k]);
+    for (var k_2 in obj) {
+        result[k_2] = unbox(obj[k_2]);
     }
     return result;
 }
 function assignBoxified(obj, values) {
-    for (var k in values) {
-        obj[k].value = values[k];
+    for (var k_3 in values) {
+        obj[k_3].value = values[k_3];
     }
 }
 function f1() {

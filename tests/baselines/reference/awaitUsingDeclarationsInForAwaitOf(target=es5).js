@@ -97,7 +97,7 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
 };
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var _a, _b, _c, d1_1, env_1, d1, e_1, result_1, e_2_1;
+        var _a, _b, _c, d1_1, env_1, d1_1, e_1, result_1, e_2_1;
         var _d, _e;
         var _f, e_2, _g, _h;
         return __generator(this, function (_j) {
@@ -120,7 +120,7 @@ function main() {
                     _j.label = 3;
                 case 3:
                     _j.trys.push([3, 4, 5, 8]);
-                    d1 = __addDisposableResource(env_1, d1_1, true);
+                    d1_1 = __addDisposableResource(env_1, d1_1, true);
                     return [3 /*break*/, 8];
                 case 4:
                     e_1 = _j.sent();

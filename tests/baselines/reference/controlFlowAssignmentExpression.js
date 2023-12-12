@@ -31,5 +31,5 @@ x = true;
 x; // number
 var o;
 if ((o = fn()).done) {
-    var y = o.value;
+    var y_1 = o.value;
 }

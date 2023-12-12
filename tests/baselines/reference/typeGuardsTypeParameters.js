@@ -45,25 +45,25 @@ var C = /** @class */ (function () {
 }());
 function f1(x) {
     if (x instanceof C) {
-        var v1 = x;
-        var v2 = x;
+        var v1_1 = x;
+        var v2_1 = x;
         x.prop;
     }
 }
 function f2(x) {
     if (typeof x === "string") {
-        var v1 = x;
-        var v2 = x;
+        var v1_2 = x;
+        var v2_2 = x;
         x.length;
     }
 }
 // Repro from #13872
 function fun(item) {
     var strings = [];
-    for (var key in item) {
-        var value = item[key];
-        if (typeof value === "string") {
-            strings.push(value);
+    for (var key_1 in item) {
+        var value_1 = item[key_1];
+        if (typeof value_1 === "string") {
+            strings.push(value_1);
         }
     }
 }

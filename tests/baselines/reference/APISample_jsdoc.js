@@ -182,15 +182,15 @@ function parseSpecificTags(node) {
         return ts.getJSDocParameterTags(node);
     }
     if (node.kind === ts.SyntaxKind.FunctionDeclaration) {
-        var func = node;
-        if (ts.hasJSDocParameterTags(func)) {
-            var flat = [];
-            for (var _i = 0, _a = func.parameters.map(ts.getJSDocParameterTags); _i < _a.length; _i++) {
-                var tags = _a[_i];
-                if (tags)
-                    flat.push.apply(flat, tags);
+        var func_1 = node;
+        if (ts.hasJSDocParameterTags(func_1)) {
+            var flat_1 = [];
+            for (var _i = 0, _a = func_1.parameters.map(ts.getJSDocParameterTags); _i < _a.length; _i++) {
+                var tags_1 = _a[_i];
+                if (tags_1)
+                    flat_1.push.apply(flat_1, tags_1);
             }
-            return flat;
+            return flat_1;
         }
     }
 }

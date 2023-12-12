@@ -103,24 +103,24 @@ t1.toString(); // Should error, t1 possibly undefined
 var t2 = __rest(strMap, []);
 t2.z.toString(); // Should error
 {
-    var x = numMapPoint.x, y = numMapPoint.y, z = numMapPoint.z;
-    x.toFixed(); // Should OK
-    y.toFixed(); // Should OK
-    z.toFixed(); // Should error
+    var x_1 = numMapPoint.x, y_1 = numMapPoint.y, z_1 = numMapPoint.z;
+    x_1.toFixed(); // Should OK
+    y_1.toFixed(); // Should OK
+    z_1.toFixed(); // Should error
 }
 {
-    var x = numMapPoint.x, q = __rest(numMapPoint, ["x"]);
-    x.toFixed(); // Should OK
-    q.y.toFixed(); // Should OK
-    q.z.toFixed(); // Should error
+    var x_2 = numMapPoint.x, q_1 = __rest(numMapPoint, ["x"]);
+    x_2.toFixed(); // Should OK
+    q_1.y.toFixed(); // Should OK
+    q_1.z.toFixed(); // Should error
 }
 {
-    var x = numMapPoint.x, q = __rest(numMapPoint, ["x"]);
-    x.
+    var x_3 = numMapPoint.x, q_2 = __rest(numMapPoint, ["x"]);
+    x_3.
         toFixed(); // Should OK
-    q.
+    q_2.
         y.toFixed(); // Should OK
-    q.
+    q_2.
         z.toFixed(); // Should error
 }
 // Assignment forms
@@ -128,8 +128,8 @@ target_string = strArray[0]; // Should error
 target_string_undef = strArray[0]; // Should OK
 target_string_arr = strArray.slice(3); // Should OK
 {
-    var x = void 0, y = void 0, z = void 0;
-    (x = numMapPoint.x, y = numMapPoint.y, z = numMapPoint.z); // Should OK
-    var q = void 0;
-    (q = numMapPoint.q); // Should error
+    var x_4, y_2, z_2;
+    (x_4 = numMapPoint.x, y_2 = numMapPoint.y, z_2 = numMapPoint.z); // Should OK
+    var q_3;
+    (q_3 = numMapPoint.q); // Should error
 }

@@ -21,5 +21,5 @@ function isNumber(obj) {
 }
 // Bad case - fails
 if (isNumber((otherValue(), value))) {
-    var b = value; // string | number , but should be number
+    var b_1 = value; // string | number , but should be number
 }

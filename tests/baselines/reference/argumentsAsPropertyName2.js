@@ -17,15 +17,15 @@ function foo() {
 //// [argumentsAsPropertyName2.js]
 // target: es5
 function foo() {
-    var _loop_1 = function (x) {
-        var i;
-        [].forEach(function () { i; });
+    var _loop_1 = function (x_1) {
+        var i_1;
+        [].forEach(function () { i_1; });
         ({ arguments: 0 });
         ({ arguments: arguments_1 });
         ({ arguments: arguments_1 });
     };
     var arguments_1 = arguments;
-    for (var x = 0; x < 1; ++x) {
-        _loop_1(x);
+    for (var x_1 = 0; x_1 < 1; ++x_1) {
+        _loop_1(x_1);
     }
 }

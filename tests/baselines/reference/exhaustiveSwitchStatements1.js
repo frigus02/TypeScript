@@ -451,8 +451,8 @@ function expression() {
 function foo() {
     var foo = 0;
     while (true) {
-        var stats = foo;
-        switch (stats) {
+        var stats_1 = foo;
+        switch (stats_1) {
             case 1: break;
             case 2: break;
         }

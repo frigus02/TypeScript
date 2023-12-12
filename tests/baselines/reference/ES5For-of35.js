@@ -21,9 +21,9 @@ var __values = (this && this.__values) || function(o) {
 var e_1, _a;
 try {
     for (var _b = __values([2, 3]), _c = _b.next(); !_c.done; _c = _b.next()) {
-        var _d = _c.value, _e = _d.x, a = _e === void 0 ? 0 : _e, _f = _d.y, b = _f === void 0 ? 1 : _f;
-        a;
-        b;
+        var _d = _c.value, _e = _d.x, a_1 = _e === void 0 ? 0 : _e, _f = _d.y, b_1 = _f === void 0 ? 1 : _f;
+        a_1;
+        b_1;
     }
 }
 catch (e_1_1) { e_1 = { error: e_1_1 }; }

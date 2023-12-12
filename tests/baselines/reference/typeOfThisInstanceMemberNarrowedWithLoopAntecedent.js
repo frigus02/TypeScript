@@ -41,7 +41,7 @@ var SomeClass = /** @class */ (function () {
         while (0) { }
         this.state.data;
         if (this.state.type === "stringVariant") {
-            var s = this.state.data;
+            var s_1 = this.state.data;
         }
     };
     return SomeClass;

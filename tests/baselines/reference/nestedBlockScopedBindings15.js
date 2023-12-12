@@ -45,8 +45,8 @@ for (; false;) {
 }
 for (; false;) {
     {
-        var y = void 0;
-        y = 1;
+        var y_1 = void 0;
+        y_1 = 1;
     }
 }
 var _loop_2 = function () {
@@ -63,8 +63,8 @@ for (; false;) {
 for (; false;) {
     switch (1) {
         case 1:
-            var z = void 0;
-            z = 1;
+            var z_1 = void 0;
+            z_1 = 1;
             break;
     }
 }

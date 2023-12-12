@@ -39,7 +39,7 @@ if (true) {
         }
         return B;
     }(A));
-    var foo = function () {
+    var foo_1 = function () {
         new B_1();
     };
 }

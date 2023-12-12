@@ -953,7 +953,7 @@ var DerivedWithLoops = [
             var _this = this;
             _this.prop = true;
             for (var _i = 0, _a = _this = _super.call(this) || this; _i < _a.length; _i++) {
-                var x = _a[_i];
+                var x_1 = _a[_i];
             }
             return _this;
         }

@@ -47,10 +47,10 @@ var C = /** @class */ (function () {
 }());
 function f1(v) {
     if (v instanceof C) {
-        var x = v;
+        var x_1 = v;
     }
     else {
-        var s = v;
+        var s_1 = v;
     }
 }
 var D = /** @class */ (function () {
@@ -60,10 +60,10 @@ var D = /** @class */ (function () {
 }());
 function f2(v) {
     if (v instanceof C) {
-        var x = v;
+        var x_2 = v;
     }
     else {
-        var y = v;
+        var y_1 = v;
     }
 }
 var E = /** @class */ (function () {
@@ -73,9 +73,9 @@ var E = /** @class */ (function () {
 }());
 function f3(v) {
     if (v instanceof E) {
-        var x = v;
+        var x_3 = v;
     }
     else {
-        var y = v;
+        var y_2 = v;
     }
 }

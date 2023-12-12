@@ -32,14 +32,14 @@ function isNumVal(x) {
 }
 function foo(things) {
     for (var _i = 0, things_1 = things; _i < things_1.length; _i++) {
-        var thing = things_1[_i];
-        if (isNumVal(thing)) {
-            var val = thing.val;
-            val.toFixed(2);
+        var thing_1 = things_1[_i];
+        if (isNumVal(thing_1)) {
+            var val_1 = thing_1.val;
+            val_1.toFixed(2);
         }
         else {
-            var val = thing.val;
-            val.length;
+            var val_2 = thing_1.val;
+            val_2.length;
         }
     }
 }

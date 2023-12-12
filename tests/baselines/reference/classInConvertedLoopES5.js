@@ -13,17 +13,17 @@ for (const row of ['1', '2', '3', '4', '5']) {
 
 //// [classInConvertedLoopES5.js]
 var classesByRow = {};
-var _loop_1 = function (row) {
-    var RowClass = /** @class */ (function () {
+var _loop_1 = function (row_1) {
+    var RowClass_1 = /** @class */ (function () {
         function RowClass() {
-            this.row = row;
+            this.row = row_1;
         }
         RowClass.factory = function () { return new RowClass(); };
         return RowClass;
     }());
-    classesByRow[row] = RowClass;
+    classesByRow[row_1] = RowClass_1;
 };
 for (var _i = 0, _a = ['1', '2', '3', '4', '5']; _i < _a.length; _i++) {
-    var row = _a[_i];
-    _loop_1(row);
+    var row_1 = _a[_i];
+    _loop_1(row_1);
 }

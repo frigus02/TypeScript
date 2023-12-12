@@ -40,8 +40,8 @@ function assertIsElement(node) {
 exports.assertIsElement = assertIsElement;
 function assertNodeTagName(node, tagName) {
     if (assertIsElement(node)) {
-        var nodeTagName = node.tagName.toLowerCase();
-        return nodeTagName === tagName;
+        var nodeTagName_1 = node.tagName.toLowerCase();
+        return nodeTagName_1 === tagName;
     }
     return false;
 }

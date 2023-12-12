@@ -19,6 +19,6 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 };
 var additional = [];
 for (var _i = 0, _a = [1, 2, 3]; _i < _a.length; _i++) {
-    var subcomponent = _a[_i];
-    additional = __spreadArray(__spreadArray([], additional, true), [subcomponent], false);
+    var subcomponent_1 = _a[_i];
+    additional = __spreadArray(__spreadArray([], additional, true), [subcomponent_1], false);
 }

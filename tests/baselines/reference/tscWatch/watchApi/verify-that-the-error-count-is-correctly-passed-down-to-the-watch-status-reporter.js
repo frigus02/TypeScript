@@ -53,7 +53,7 @@ Output::
 
 //// [/user/username/projects/myproject/index.js]
 var compiler = new Compiler();
-for (var i = 0; j < 5; i++) { }
+for (var i_1 = 0; j < 5; i_1++) { }
 
 
 

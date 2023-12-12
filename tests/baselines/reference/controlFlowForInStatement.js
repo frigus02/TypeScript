@@ -25,8 +25,8 @@ var x;
 var obj;
 var cond;
 x = /a/;
-for (var y in obj) {
-    x = y;
+for (var y_1 in obj) {
+    x = y_1;
     if (cond) {
         x = 42;
         continue;

@@ -98,7 +98,7 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
 };
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var _a, _b, _c, d1_1, env_1, d1, e_1_1;
+        var _a, _b, _c, d1_1, env_1, d1_1, e_1_1;
         var _d;
         var _e, e_1, _f, _g;
         return __generator(this, function (_h) {
@@ -115,7 +115,7 @@ function main() {
                     d1_1 = _g;
                     env_1 = { stack: [], error: void 0, hasError: false };
                     try {
-                        d1 = __addDisposableResource(env_1, d1_1, false);
+                        d1_1 = __addDisposableResource(env_1, d1_1, false);
                     }
                     catch (e_2) {
                         env_1.error = e_2;

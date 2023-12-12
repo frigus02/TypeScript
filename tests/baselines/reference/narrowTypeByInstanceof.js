@@ -46,10 +46,10 @@ var FileMatch = /** @class */ (function () {
 }());
 var elementA, elementB;
 if (elementA instanceof FileMatch && elementB instanceof FileMatch) {
-    var a = elementA.resource().path;
-    var b = elementB.resource().path;
+    var a_1 = elementA.resource().path;
+    var b_1 = elementB.resource().path;
 }
 else if (elementA instanceof Match && elementB instanceof Match) {
-    var a = elementA.range();
-    var b = elementB.range();
+    var a_2 = elementA.range();
+    var b_2 = elementB.range();
 }

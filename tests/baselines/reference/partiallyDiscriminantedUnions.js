@@ -73,7 +73,7 @@ function isShape(s) {
 function fail(s) {
     if (isShape(s)) {
         if (s.kind === "circle") {
-            var c = s;
+            var c_1 = s;
         }
     }
 }

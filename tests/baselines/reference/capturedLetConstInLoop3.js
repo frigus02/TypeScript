@@ -283,36 +283,36 @@ function foo3(x) {
     use(v);
 }
 function foo4(x) {
-    var _loop_6 = function (y) {
-        v = y;
+    var _loop_6 = function (y_1) {
+        v = y_1;
         var x_6 = 1;
         (function () { return x_6 + v; });
         (function () { return x_6 + v; });
     };
     var v;
-    for (var y = 0; y < 1; ++y) {
-        _loop_6(y);
+    for (var y_1 = 0; y_1 < 1; ++y_1) {
+        _loop_6(y_1);
     }
     use(v);
 }
 function foo5(x) {
-    var _loop_7 = function (x_7, y) {
+    var _loop_7 = function (x_7, y_2) {
         v = x_7;
-        (function () { return x_7 + y + v; });
-        (function () { return x_7 + y + v; });
+        (function () { return x_7 + y_2 + v; });
+        (function () { return x_7 + y_2 + v; });
     };
     var v;
-    for (var x_7 = 0, y = 1; x_7 < 1; ++x_7) {
-        _loop_7(x_7, y);
+    for (var x_7 = 0, y_2 = 1; x_7 < 1; ++x_7) {
+        _loop_7(x_7, y_2);
     }
     use(v);
 }
 function foo6(x) {
     var _loop_8 = function () {
-        var x_8, y;
+        var x_8, y_3;
         v = x_8;
-        (function () { return x_8 + y + v; });
-        (function () { return x_8 + y + v; });
+        (function () { return x_8 + y_3 + v; });
+        (function () { return x_8 + y_3 + v; });
     };
     var v;
     while (1 === 1) {
@@ -322,10 +322,10 @@ function foo6(x) {
 }
 function foo7(x) {
     var _loop_9 = function () {
-        var x_9, y;
+        var x_9, y_4;
         v = x_9;
-        (function () { return x_9 + y + v; });
-        (function () { return x_9 + y + v; });
+        (function () { return x_9 + y_4 + v; });
+        (function () { return x_9 + y_4 + v; });
     };
     var v;
     do {
@@ -334,15 +334,15 @@ function foo7(x) {
     use(v);
 }
 function foo8(x) {
-    var _loop_10 = function (y) {
+    var _loop_10 = function (y_5) {
         var x_10 = 1;
         v = x_10;
-        (function () { return x_10 + y + v; });
-        (function () { return x_10 + y + v; });
+        (function () { return x_10 + y_5 + v; });
+        (function () { return x_10 + y_5 + v; });
     };
     var v;
-    for (var y = 0; y < 1; ++y) {
-        _loop_10(y);
+    for (var y_5 = 0; y_5 < 1; ++y_5) {
+        _loop_10(y_5);
     }
     use(v);
 }
@@ -410,36 +410,36 @@ function foo3_c(x) {
     use(v);
 }
 function foo4_c(x) {
-    var _loop_16 = function (y) {
-        v = y;
+    var _loop_16 = function (y_6) {
+        v = y_6;
         var x_16 = 1;
         (function () { return x_16 + v; });
         (function () { return x_16 + v; });
     };
     var v;
-    for (var y = 0; y < 1;) {
-        _loop_16(y);
+    for (var y_6 = 0; y_6 < 1;) {
+        _loop_16(y_6);
     }
     use(v);
 }
 function foo5_c(x) {
-    var _loop_17 = function (x_17, y) {
+    var _loop_17 = function (x_17, y_7) {
         v = x_17;
-        (function () { return x_17 + y + v; });
-        (function () { return x_17 + y + v; });
+        (function () { return x_17 + y_7 + v; });
+        (function () { return x_17 + y_7 + v; });
     };
     var v;
-    for (var x_17 = 0, y = 1; x_17 < 1;) {
-        _loop_17(x_17, y);
+    for (var x_17 = 0, y_7 = 1; x_17 < 1;) {
+        _loop_17(x_17, y_7);
     }
     use(v);
 }
 function foo6_c(x) {
     var _loop_18 = function () {
-        var x_18 = 1, y = 1;
+        var x_18 = 1, y_8 = 1;
         v = x_18;
-        (function () { return x_18 + y + v; });
-        (function () { return x_18 + y + v; });
+        (function () { return x_18 + y_8 + v; });
+        (function () { return x_18 + y_8 + v; });
     };
     var v;
     while (1 === 1) {
@@ -449,10 +449,10 @@ function foo6_c(x) {
 }
 function foo7_c(x) {
     var _loop_19 = function () {
-        var x_19 = 1, y = 1;
+        var x_19 = 1, y_9 = 1;
         v = x_19;
-        (function () { return x_19 + y + v; });
-        (function () { return x_19 + y + v; });
+        (function () { return x_19 + y_9 + v; });
+        (function () { return x_19 + y_9 + v; });
     };
     var v;
     do {
@@ -461,15 +461,15 @@ function foo7_c(x) {
     use(v);
 }
 function foo8_c(x) {
-    var _loop_20 = function (y) {
+    var _loop_20 = function (y_10) {
         var x_20 = 1;
         v = x_20;
-        (function () { return x_20 + y + v; });
-        (function () { return x_20 + y + v; });
+        (function () { return x_20 + y_10 + v; });
+        (function () { return x_20 + y_10 + v; });
     };
     var v;
-    for (var y = 0; y < 1;) {
-        _loop_20(y);
+    for (var y_10 = 0; y_10 < 1;) {
+        _loop_20(y_10);
     }
     use(v);
 }

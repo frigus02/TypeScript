@@ -105,13 +105,13 @@ while (false) {
 for (;; false) {
 }
 /** @typedef {{ i: string }} I */
-for (var i in []) {
+for (var i_1 in []) {
 }
 /** @typedef {{ j: string }} J */
 break;
 /** @typedef {{ k: string }} K */
 for (var _i = 0, _a = []; _i < _a.length; _i++) {
-    var k = _a[_i];
+    var k_1 = _a[_i];
 }
 /** @typedef {{ l: string }} L */
 continue;

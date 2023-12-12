@@ -57,28 +57,28 @@ var __rest = (this && this.__rest) || function (s, e) {
 function func(value) {
     if (value.kind === "a") {
         value.a;
-        var a = value.a;
+        var a_1 = value.a;
     }
     else {
         value.b;
-        var b = value.b;
+        var b_1 = value.b;
     }
 }
 function func2(value) {
     if (value.kind === "f") {
-        var f1 = value.f;
-        var _a = value.f, a = _a.a, spread = __rest(_a, ["a"]);
+        var f1_1 = value.f;
+        var _a = value.f, a_2 = _a.a, spread_1 = __rest(_a, ["a"]);
         value.f;
     }
     else {
-        var _b = value.g, c = _b.c, spread = __rest(_b, ["c"]);
+        var _b = value.g, c_1 = _b.c, spread_2 = __rest(_b, ["c"]);
         value.g;
     }
 }
 function func3(t) {
     if (t.kind === "a") {
-        var kind = t.kind, r1 = __rest(t, ["kind"]);
-        var r2 = (function (_a) {
+        var kind_1 = t.kind, r1_1 = __rest(t, ["kind"]);
+        var r2_1 = (function (_a) {
             var kind = _a.kind, rest = __rest(_a, ["kind"]);
             return rest;
         })(t);

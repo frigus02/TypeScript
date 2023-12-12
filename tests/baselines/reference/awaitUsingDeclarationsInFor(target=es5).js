@@ -93,7 +93,7 @@ var __disposeResources = (this && this.__disposeResources) || (function (Suppres
 });
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var env_1, d1, d2, d3, d4, e_1, result_1;
+        var env_1, d1_1, d2_1, d3_1, d4_1, e_1, result_1;
         var _a, _b;
         return __generator(this, function (_c) {
             switch (_c.label) {
@@ -102,11 +102,11 @@ function main() {
                     _c.label = 1;
                 case 1:
                     _c.trys.push([1, 2, 3, 6]);
-                    d1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.dispose] = function () { }, _a), true), d2 = __addDisposableResource(env_1, (_b = {}, _b[Symbol.asyncDispose] = function () {
+                    d1_1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.dispose] = function () { }, _a), true), d2_1 = __addDisposableResource(env_1, (_b = {}, _b[Symbol.asyncDispose] = function () {
                         return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                             return [2 /*return*/];
                         }); });
-                    }, _b), true), d3 = __addDisposableResource(env_1, null, true), d4 = __addDisposableResource(env_1, undefined, true);
+                    }, _b), true), d3_1 = __addDisposableResource(env_1, null, true), d4_1 = __addDisposableResource(env_1, undefined, true);
                     for (;;) {
                     }
                     return [3 /*break*/, 6];

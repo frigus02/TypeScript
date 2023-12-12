@@ -23,17 +23,17 @@ switch (2) {
 //// [unusedSwitchStatement.js]
 switch (1) {
     case 0:
-        var x = void 0;
+        var x_1;
         break;
     case 1:
-        var c = 1;
+        var c_1 = 1;
         break;
     default:
-        var z = 2;
+        var z_1 = 2;
 }
 switch (2) {
     case 0:
-        var x = void 0;
+        var x_2;
     case 1:
-        x = 1;
+        x_2 = 1;
 }

@@ -96,7 +96,7 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
 };
 function f1() {
     return __awaiter(this, void 0, void 0, function () {
-        var y, _a, y_1, y_1_1, x, e_1_1;
+        var y, _a, y_1, y_1_1, x_1, e_1_1;
         var _b, e_1, _c, _d;
         return __generator(this, function (_e) {
             switch (_e.label) {
@@ -109,7 +109,7 @@ function f1() {
                     if (!(y_1_1 = _e.sent(), _b = y_1_1.done, !_b)) return [3 /*break*/, 4];
                     _d = y_1_1.value;
                     _a = false;
-                    x = _d;
+                    x_1 = _d;
                     _e.label = 3;
                 case 3:
                     _a = true;
@@ -272,7 +272,7 @@ var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _ar
 };
 function f3() {
     return __asyncGenerator(this, arguments, function f3_1() {
-        var y, _a, y_1, y_1_1, x, e_1_1;
+        var y, _a, y_1, y_1_1, x_1, e_1_1;
         var _b, e_1, _c, _d;
         return __generator(this, function (_e) {
             switch (_e.label) {
@@ -285,7 +285,7 @@ function f3() {
                     if (!(y_1_1 = _e.sent(), _b = y_1_1.done, !_b)) return [3 /*break*/, 4];
                     _d = y_1_1.value;
                     _a = false;
-                    x = _d;
+                    x_1 = _d;
                     _e.label = 3;
                 case 3:
                     _a = true;
@@ -449,7 +449,7 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
 // https://github.com/Microsoft/TypeScript/issues/21363
 function f5() {
     return __awaiter(this, void 0, void 0, function () {
-        var y, _a, y_1, y_1_1, x, e_1_1;
+        var y, _a, y_1, y_1_1, x_1, e_1_1;
         var _b, e_1, _c, _d;
         return __generator(this, function (_e) {
             switch (_e.label) {
@@ -462,7 +462,7 @@ function f5() {
                     if (!(y_1_1 = _e.sent(), _b = y_1_1.done, !_b)) return [3 /*break*/, 4];
                     _d = y_1_1.value;
                     _a = false;
-                    x = _d;
+                    x_1 = _d;
                     return [3 /*break*/, 3];
                 case 3:
                     _a = true;
@@ -540,7 +540,7 @@ var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _ar
 // https://github.com/Microsoft/TypeScript/issues/21363
 function f6() {
     return __asyncGenerator(this, arguments, function f6_1() {
-        var y, _a, y_1, y_1_1, x, e_1_1;
+        var y, _a, y_1, y_1_1, x_1, e_1_1;
         var _b, e_1, _c, _d;
         return __generator(this, function (_e) {
             switch (_e.label) {
@@ -553,7 +553,7 @@ function f6() {
                     if (!(y_1_1 = _e.sent(), _b = y_1_1.done, !_b)) return [3 /*break*/, 4];
                     _d = y_1_1.value;
                     _a = false;
-                    x = _d;
+                    x_1 = _d;
                     return [3 /*break*/, 3];
                 case 3:
                     _a = true;
@@ -631,7 +631,7 @@ var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _ar
 // https://github.com/microsoft/TypeScript/issues/36166
 function f7() {
     return __asyncGenerator(this, arguments, function f7_1() {
-        var y, _a, y_1, y_1_1, x, e_1_1;
+        var y, _a, y_1, y_1_1, x_1, e_1_1;
         var _b, e_1, _c, _d;
         return __generator(this, function (_e) {
             switch (_e.label) {
@@ -644,7 +644,7 @@ function f7() {
                     if (!(y_1_1 = _e.sent(), _b = y_1_1.done, !_b)) return [3 /*break*/, 4];
                     _d = y_1_1.value;
                     _a = false;
-                    x = _d;
+                    x_1 = _d;
                     _e.label = 3;
                 case 3:
                     _a = true;

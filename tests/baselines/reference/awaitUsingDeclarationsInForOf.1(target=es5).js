@@ -91,7 +91,7 @@ var __disposeResources = (this && this.__disposeResources) || (function (Suppres
 });
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var _i, _a, d1_1, env_1, d1, e_1, result_1;
+        var _i, _a, d1_1, env_1, d1_1, e_1, result_1;
         var _b, _c;
         return __generator(this, function (_d) {
             switch (_d.label) {
@@ -109,7 +109,7 @@ function main() {
                     _d.label = 2;
                 case 2:
                     _d.trys.push([2, 3, 4, 7]);
-                    d1 = __addDisposableResource(env_1, d1_1, true);
+                    d1_1 = __addDisposableResource(env_1, d1_1, true);
                     return [3 /*break*/, 7];
                 case 3:
                     e_1 = _d.sent();

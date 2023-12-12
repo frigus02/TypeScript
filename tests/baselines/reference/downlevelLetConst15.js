@@ -99,10 +99,10 @@ var z5 = 1;
     var z_1 = "";
     var z5_1 = [5][0];
     {
-        var _z = 1;
-        var _z5 = { a: 1 }.a;
+        var _z_1 = 1;
+        var _z5_1 = { a: 1 }.a;
         // try to step on generated name
-        use(_z);
+        use(_z_1);
     }
     use(z_1);
 }

@@ -467,7 +467,6 @@ import {
     isBindingPattern,
     isBlock,
     isBlockOrCatchScoped,
-    isBlockScopedContainerTopLevel,
     isBooleanLiteral,
     isCallChain,
     isCallExpression,
@@ -47694,36 +47693,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
             if (links.isDeclarationWithCollidingName === undefined) {
                 const container = getEnclosingBlockScopeContainer(symbol.valueDeclaration);
                 if (isStatementWithLocals(container) || isSymbolOfDestructuredElementOfCatchBinding(symbol)) {
-                    const nodeLinks = getNodeLinks(symbol.valueDeclaration);
-                    if (resolveName(container.parent, symbol.escapedName, SymbolFlags.Value, /*nameNotFoundMessage*/ undefined, /*nameArg*/ undefined, /*isUse*/ false)) {
-                        // redeclaration - always should be renamed
-                        links.isDeclarationWithCollidingName = true;
-                    }
-                    else if (nodeLinks.flags & NodeCheckFlags.CapturedBlockScopedBinding) {
-                        // binding is captured in the function
-                        // should be renamed if:
-                        // - binding is not top level - top level bindings never collide with anything
-                        // AND
-                        //   - binding is not declared in loop, should be renamed to avoid name reuse across siblings
-                        //     let a, b
-                        //     { let x = 1; a = () => x; }
-                        //     { let x = 100; b = () => x; }
-                        //     console.log(a()); // should print '1'
-                        //     console.log(b()); // should print '100'
-                        //     OR
-                        //   - binding is declared inside loop but not in inside initializer of iteration statement or directly inside loop body
-                        //     * variables from initializer are passed to rewritten loop body as parameters so they are not captured directly
-                        //     * variables that are declared immediately in loop body will become top level variable after loop is rewritten and thus
-                        //       they will not collide with anything
-                        const isDeclaredInLoop = nodeLinks.flags & NodeCheckFlags.BlockScopedBindingInLoop;
-                        const inLoopInitializer = isIterationStatement(container, /*lookInLabeledStatements*/ false);
-                        const inLoopBodyBlock = container.kind === SyntaxKind.Block && isIterationStatement(container.parent, /*lookInLabeledStatements*/ false);
-
-                        links.isDeclarationWithCollidingName = !isBlockScopedContainerTopLevel(container) && (!isDeclaredInLoop || (!inLoopInitializer && !inLoopBodyBlock));
-                    }
-                    else {
-                        links.isDeclarationWithCollidingName = false;
-                    }
+                    links.isDeclarationWithCollidingName = true;
                 }
             }
             return links.isDeclarationWithCollidingName!;

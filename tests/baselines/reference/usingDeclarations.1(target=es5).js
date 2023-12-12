@@ -628,7 +628,7 @@ try {
     {
         var env_3 = { stack: [], error: void 0, hasError: false };
         try {
-            var d19 = __addDisposableResource(env_3, (_b = {}, _b[Symbol.dispose] = function () { }, _b), false);
+            var d19_1 = __addDisposableResource(env_3, (_b = {}, _b[Symbol.dispose] = function () { }, _b), false);
         }
         catch (e_1) {
             env_3.error = e_1;
@@ -642,10 +642,10 @@ try {
     try {
         switch (Math.random()) {
             case 0:
-                var d20 = __addDisposableResource(env_1, (_c = {}, _c[Symbol.dispose] = function () { }, _c), false);
+                var d20_1 = __addDisposableResource(env_1, (_c = {}, _c[Symbol.dispose] = function () { }, _c), false);
                 break;
             case 1:
-                var d21 = __addDisposableResource(env_1, (_d = {}, _d[Symbol.dispose] = function () { }, _d), false);
+                var d21_1 = __addDisposableResource(env_1, (_d = {}, _d[Symbol.dispose] = function () { }, _d), false);
                 break;
         }
     }
@@ -661,7 +661,7 @@ try {
         try {
             switch (0) {
                 case 0:
-                    var d22 = __addDisposableResource(env_4, (_e = {}, _e[Symbol.dispose] = function () { }, _e), false);
+                    var d22_1 = __addDisposableResource(env_4, (_e = {}, _e[Symbol.dispose] = function () { }, _e), false);
                     break;
             }
         }
@@ -676,7 +676,7 @@ try {
     try {
         var env_5 = { stack: [], error: void 0, hasError: false };
         try {
-            var d23 = __addDisposableResource(env_5, (_f = {}, _f[Symbol.dispose] = function () { }, _f), false);
+            var d23_1 = __addDisposableResource(env_5, (_f = {}, _f[Symbol.dispose] = function () { }, _f), false);
         }
         catch (e_4) {
             env_5.error = e_4;
@@ -689,7 +689,7 @@ try {
     catch (_s) {
         var env_6 = { stack: [], error: void 0, hasError: false };
         try {
-            var d24 = __addDisposableResource(env_6, (_g = {}, _g[Symbol.dispose] = function () { }, _g), false);
+            var d24_1 = __addDisposableResource(env_6, (_g = {}, _g[Symbol.dispose] = function () { }, _g), false);
         }
         catch (e_5) {
             env_6.error = e_5;
@@ -702,7 +702,7 @@ try {
     finally {
         var env_7 = { stack: [], error: void 0, hasError: false };
         try {
-            var d25 = __addDisposableResource(env_7, (_h = {}, _h[Symbol.dispose] = function () { }, _h), false);
+            var d25_1 = __addDisposableResource(env_7, (_h = {}, _h[Symbol.dispose] = function () { }, _h), false);
         }
         catch (e_6) {
             env_7.error = e_6;
@@ -715,7 +715,7 @@ try {
     if (true) {
         var env_8 = { stack: [], error: void 0, hasError: false };
         try {
-            var d26 = __addDisposableResource(env_8, (_j = {}, _j[Symbol.dispose] = function () { }, _j), false);
+            var d26_1 = __addDisposableResource(env_8, (_j = {}, _j[Symbol.dispose] = function () { }, _j), false);
         }
         catch (e_7) {
             env_8.error = e_7;
@@ -728,7 +728,7 @@ try {
     else {
         var env_9 = { stack: [], error: void 0, hasError: false };
         try {
-            var d27 = __addDisposableResource(env_9, (_k = {}, _k[Symbol.dispose] = function () { }, _k), false);
+            var d27_1 = __addDisposableResource(env_9, (_k = {}, _k[Symbol.dispose] = function () { }, _k), false);
         }
         catch (e_8) {
             env_9.error = e_8;
@@ -741,7 +741,7 @@ try {
     while (true) {
         var env_10 = { stack: [], error: void 0, hasError: false };
         try {
-            var d28 = __addDisposableResource(env_10, (_l = {}, _l[Symbol.dispose] = function () { }, _l), false);
+            var d28_1 = __addDisposableResource(env_10, (_l = {}, _l[Symbol.dispose] = function () { }, _l), false);
             break;
         }
         catch (e_9) {
@@ -755,7 +755,7 @@ try {
     do {
         var env_11 = { stack: [], error: void 0, hasError: false };
         try {
-            var d29 = __addDisposableResource(env_11, (_m = {}, _m[Symbol.dispose] = function () { }, _m), false);
+            var d29_1 = __addDisposableResource(env_11, (_m = {}, _m[Symbol.dispose] = function () { }, _m), false);
             break;
         }
         catch (e_10) {
@@ -769,7 +769,7 @@ try {
     for (;;) {
         var env_12 = { stack: [], error: void 0, hasError: false };
         try {
-            var d30 = __addDisposableResource(env_12, (_o = {}, _o[Symbol.dispose] = function () { }, _o), false);
+            var d30_1 = __addDisposableResource(env_12, (_o = {}, _o[Symbol.dispose] = function () { }, _o), false);
             break;
         }
         catch (e_11) {
@@ -780,10 +780,10 @@ try {
             __disposeResources(env_12);
         }
     }
-    for (var x in {}) {
+    for (var x_1 in {}) {
         var env_13 = { stack: [], error: void 0, hasError: false };
         try {
-            var d31 = __addDisposableResource(env_13, (_p = {}, _p[Symbol.dispose] = function () { }, _p), false);
+            var d31_1 = __addDisposableResource(env_13, (_p = {}, _p[Symbol.dispose] = function () { }, _p), false);
         }
         catch (e_12) {
             env_13.error = e_12;
@@ -794,10 +794,10 @@ try {
         }
     }
     for (var _i = 0, _t = []; _i < _t.length; _i++) {
-        var x = _t[_i];
+        var x_2 = _t[_i];
         var env_14 = { stack: [], error: void 0, hasError: false };
         try {
-            var d32 = __addDisposableResource(env_14, (_q = {}, _q[Symbol.dispose] = function () { }, _q), false);
+            var d32_1 = __addDisposableResource(env_14, (_q = {}, _q[Symbol.dispose] = function () { }, _q), false);
         }
         catch (e_13) {
             env_14.error = e_13;

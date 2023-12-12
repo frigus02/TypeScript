@@ -38,10 +38,10 @@ while (0)
     ;
 for (; 0;)
     ;
-for (var _ in [])
+for (var _1 in [])
     ;
 for (var _i = 0, _a = []; _i < _a.length; _i++) {
-    var _ = _a[_i];
+    var _2 = _a[_i];
     ;
 }
 // @ts-ignore suppress `with` statement error

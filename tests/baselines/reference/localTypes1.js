@@ -195,21 +195,21 @@ function f2() {
 }
 function f3(b) {
     if (true) {
-        var E = void 0;
+        var E_1;
         (function (E) {
             E[E["A"] = 0] = "A";
             E[E["B"] = 1] = "B";
             E[E["C"] = 2] = "C";
-        })(E || (E = {}));
+        })(E_1 || (E_1 = {}));
         if (b) {
-            var C = /** @class */ (function () {
+            var C_1 = /** @class */ (function () {
                 function C() {
                 }
                 return C;
             }());
-            var a = [new C()];
-            a[0].x = E.B;
-            return a;
+            var a_1 = [new C_1()];
+            a_1[0].x = E_1.B;
+            return a_1;
         }
         else {
             var A_1 = /** @class */ (function () {
@@ -217,9 +217,9 @@ function f3(b) {
                 }
                 return A;
             }());
-            var c = [new A_1()];
-            c[0].x = E.B;
-            return c;
+            var c_1 = [new A_1()];
+            c_1[0].x = E_1.B;
+            return c_1;
         }
     }
 }

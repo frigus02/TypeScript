@@ -361,12 +361,12 @@ var Derived = /** @class */ (function (_super) {
 }(Test));
 function f11(items) {
     for (var _i = 0, items_1 = items; _i < items_1.length; _i++) {
-        var item = items_1[_i];
-        if (item.isTest2()) {
-            item.z;
+        var item_1 = items_1[_i];
+        if (item_1.isTest2()) {
+            item_1.z;
         }
-        item.assertIsTest2();
-        item.z;
+        item_1.assertIsTest2();
+        item_1.z;
     }
 }
 function f20(x) {
@@ -381,9 +381,9 @@ function f20(x) {
 }
 function example1(things) {
     for (var _i = 0, things_1 = things; _i < things_1.length; _i++) {
-        var thing = things_1[_i];
-        thing.isGood();
-        thing.good;
+        var thing_1 = things_1[_i];
+        thing_1.isGood();
+        thing_1.good;
     }
 }
 

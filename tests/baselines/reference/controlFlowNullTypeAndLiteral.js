@@ -44,6 +44,6 @@ if (objWithValMaybeNull.val === myNull)
     addOne(objWithValMaybeNull.val); // Error
 function f(x) {
     if (x === myNull) {
-        var s = x; // Error
+        var s_1 = x; // Error
     }
 }

@@ -130,41 +130,41 @@ function foo_c() {
 
 //// [capturedLetConstInLoop8.js]
 function foo() {
-    l0: for (var z = 0; z < 1; ++z) {
-        var _loop_1 = function (x) {
-            var _loop_2 = function (y) {
-                (function () { return x + y; });
-                (function () { return x + y; });
-                if (y == 1) {
+    l0: for (var z_1 = 0; z_1 < 1; ++z_1) {
+        var _loop_1 = function (x_1) {
+            var _loop_2 = function (y_1) {
+                (function () { return x_1 + y_1; });
+                (function () { return x_1 + y_1; });
+                if (y_1 == 1) {
                     return "break";
                 }
-                if (y == 1) {
+                if (y_1 == 1) {
                     return "break-l1";
                 }
-                if (y == 1) {
+                if (y_1 == 1) {
                     return "break-ll1";
                 }
-                if (y == 1) {
+                if (y_1 == 1) {
                     return "continue-l0";
                 }
-                if (x == 2) {
+                if (x_1 == 2) {
                     return "continue";
                 }
-                if (x == 2) {
+                if (x_1 == 2) {
                     return "continue-l1";
                 }
-                if (x == 2) {
+                if (x_1 == 2) {
                     return "continue-ll1";
                 }
-                if (x == 2) {
+                if (x_1 == 2) {
                     return { value: "123" };
                 }
-                if (x == 3) {
+                if (x_1 == 3) {
                     return { value: void 0 };
                 }
             };
-            ll1: for (var y = 0; y < 1; ++y) {
-                var state_2 = _loop_2(y);
+            ll1: for (var y_1 = 0; y_1 < 1; ++y_1) {
+                var state_2 = _loop_2(y_1);
                 if (typeof state_2 === "object")
                     return state_2;
                 if (state_2 === "break")
@@ -177,30 +177,30 @@ function foo() {
                     case "continue-ll1": continue ll1;
                 }
             }
-            if (x == 1) {
+            if (x_1 == 1) {
                 return "break";
             }
-            if (x == 1) {
+            if (x_1 == 1) {
                 return "break-l1";
             }
-            if (x == 2) {
+            if (x_1 == 2) {
                 return "continue";
             }
-            if (x == 2) {
+            if (x_1 == 2) {
                 return "continue-l1";
             }
-            if (x == 2) {
+            if (x_1 == 2) {
                 return "continue-l0";
             }
-            if (x == 2) {
+            if (x_1 == 2) {
                 return { value: "456" };
             }
-            if (x == 3) {
+            if (x_1 == 3) {
                 return { value: void 0 };
             }
         };
-        l1: for (var x = 0; x < 1; ++x) {
-            var state_1 = _loop_1(x);
+        l1: for (var x_1 = 0; x_1 < 1; ++x_1) {
+            var state_1 = _loop_1(x_1);
             if (typeof state_1 === "object")
                 return state_1.value;
             if (state_1 === "break")
@@ -214,41 +214,41 @@ function foo() {
     }
 }
 function foo_c() {
-    l0: for (var z = 0; z < 1;) {
-        var _loop_3 = function (x) {
-            var _loop_4 = function (y) {
-                (function () { return x + y; });
-                (function () { return x + y; });
-                if (y == 1) {
+    l0: for (var z_2 = 0; z_2 < 1;) {
+        var _loop_3 = function (x_2) {
+            var _loop_4 = function (y_2) {
+                (function () { return x_2 + y_2; });
+                (function () { return x_2 + y_2; });
+                if (y_2 == 1) {
                     return "break";
                 }
-                if (y == 1) {
+                if (y_2 == 1) {
                     return "break-l1";
                 }
-                if (y == 1) {
+                if (y_2 == 1) {
                     return "break-ll1";
                 }
-                if (y == 1) {
+                if (y_2 == 1) {
                     return "continue-l0";
                 }
-                if (x == 2) {
+                if (x_2 == 2) {
                     return "continue";
                 }
-                if (x == 2) {
+                if (x_2 == 2) {
                     return "continue-l1";
                 }
-                if (x == 2) {
+                if (x_2 == 2) {
                     return "continue-ll1";
                 }
-                if (x == 2) {
+                if (x_2 == 2) {
                     return { value: "123" };
                 }
-                if (x == 3) {
+                if (x_2 == 3) {
                     return { value: void 0 };
                 }
             };
-            ll1: for (var y = 0; y < 1;) {
-                var state_4 = _loop_4(y);
+            ll1: for (var y_2 = 0; y_2 < 1;) {
+                var state_4 = _loop_4(y_2);
                 if (typeof state_4 === "object")
                     return state_4;
                 if (state_4 === "break")
@@ -261,30 +261,30 @@ function foo_c() {
                     case "continue-ll1": continue ll1;
                 }
             }
-            if (x == 1) {
+            if (x_2 == 1) {
                 return "break";
             }
-            if (x == 1) {
+            if (x_2 == 1) {
                 return "break-l1";
             }
-            if (x == 2) {
+            if (x_2 == 2) {
                 return "continue";
             }
-            if (x == 2) {
+            if (x_2 == 2) {
                 return "continue-l1";
             }
-            if (x == 2) {
+            if (x_2 == 2) {
                 return "continue-l0";
             }
-            if (x == 2) {
+            if (x_2 == 2) {
                 return { value: "456" };
             }
-            if (x == 3) {
+            if (x_2 == 3) {
                 return { value: void 0 };
             }
         };
-        l1: for (var x = 0; x < 1;) {
-            var state_3 = _loop_3(x);
+        l1: for (var x_2 = 0; x_2 < 1;) {
+            var state_3 = _loop_3(x_2);
             if (typeof state_3 === "object")
                 return state_3.value;
             if (state_3 === "break")

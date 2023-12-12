@@ -139,44 +139,44 @@ if (areSuccess) {
     }
 }
 {
-    var _g = getArrayResult(), foo1 = _g[0], bar1 = _g[1];
-    var _h = getArrayResult(), foo2 = _h[0], bar2 = _h[1];
-    var _j = getArrayResult(), foo3 = _j[0], bar3 = _j[1];
-    var arrayAllSuccess = foo1 && foo2 && foo3;
-    if (arrayAllSuccess) {
-        bar1.toExponential(); // should ok
-        bar2.toExponential(); // should ok
-        bar3.toExponential(); // should ok
+    var _g = getArrayResult(), foo1_1 = _g[0], bar1_1 = _g[1];
+    var _h = getArrayResult(), foo2_1 = _h[0], bar2_1 = _h[1];
+    var _j = getArrayResult(), foo3_1 = _j[0], bar3_1 = _j[1];
+    var arrayAllSuccess_1 = foo1_1 && foo2_1 && foo3_1;
+    if (arrayAllSuccess_1) {
+        bar1_1.toExponential(); // should ok
+        bar2_1.toExponential(); // should ok
+        bar3_1.toExponential(); // should ok
     }
 }
 {
-    var _k = getArrayResult(), foo1 = _k[0], bar1 = _k[1];
-    var _l = getArrayResult(), foo2 = _l[0], bar2 = _l[1];
-    var _m = getArrayResult(), foo3 = _m[0], bar3 = _m[1];
-    var arrayAllSuccess = foo1 && foo2 && foo3;
-    if (arrayAllSuccess) {
-        bar1.toExponential(); // should ok
-        bar2.toExponential(); // should error
-        bar3.toExponential(); // should error
+    var _k = getArrayResult(), foo1_2 = _k[0], bar1_2 = _k[1];
+    var _l = getArrayResult(), foo2_2 = _l[0], bar2_2 = _l[1];
+    var _m = getArrayResult(), foo3_2 = _m[0], bar3_2 = _m[1];
+    var arrayAllSuccess_2 = foo1_2 && foo2_2 && foo3_2;
+    if (arrayAllSuccess_2) {
+        bar1_2.toExponential(); // should ok
+        bar2_2.toExponential(); // should error
+        bar3_2.toExponential(); // should error
     }
 }
 {
-    var resp = void 0;
-    var data = resp.resp.data, type = resp.type;
-    if (type === 'string') {
-        data;
+    var resp_1;
+    var data_1 = resp_1.resp.data, type_1 = resp_1.type;
+    if (type_1 === 'string') {
+        data_1;
     }
-    if (resp.type === 'string') {
-        resp.resp.data;
+    if (resp_1.type === 'string') {
+        resp_1.resp.data;
     }
 }
 {
-    var resp = void 0;
-    var dataAlias = resp.resp.data, type = resp.type;
-    if (type === 'string') {
-        dataAlias;
+    var resp_2;
+    var dataAlias_1 = resp_2.resp.data, type_2 = resp_2.type;
+    if (type_2 === 'string') {
+        dataAlias_1;
     }
-    if (resp.type === 'string') {
-        resp.resp.data;
+    if (resp_2.type === 'string') {
+        resp_2.resp.data;
     }
 }

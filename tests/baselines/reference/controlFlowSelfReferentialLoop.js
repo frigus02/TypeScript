@@ -233,8 +233,8 @@ function getObject(id) {
 (function () {
     var id = 'a';
     while (1) {
-        var data = getObject(id);
-        var message = data.message;
-        id = message.id;
+        var data_1 = getObject(id);
+        var message_1 = data_1.message;
+        id = message_1.id;
     }
 })();

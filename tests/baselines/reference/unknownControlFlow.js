@@ -804,7 +804,7 @@ function fx20(value) {
         var foo_1 = value;
     }
     else if (value === 'right') {
-        var bar = value;
+        var bar_1 = value;
     }
     else {
         assertNever(value);

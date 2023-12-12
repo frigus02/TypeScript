@@ -33,14 +33,14 @@ var Operation = /** @class */ (function () {
     Operation.prototype.validateParameters = function (parameterValues) {
         var result = null;
         for (var _i = 0, _a = Object.keys(parameterValues); _i < _a.length; _i++) {
-            var parameterLocation = _a[_i];
-            var parameter = this.getParameter();
+            var parameterLocation_1 = _a[_i];
+            var parameter_1 = this.getParameter();
             ;
-            var values = this.getValues();
-            var innerResult = parameter.validate(values[parameter.oaParameter.name]);
-            if (innerResult && innerResult.length > 0) {
+            var values_1 = this.getValues();
+            var innerResult_1 = parameter_1.validate(values_1[parameter_1.oaParameter.name]);
+            if (innerResult_1 && innerResult_1.length > 0) {
                 // Commenting out this line will fix the problem.
-                result = (result || []).concat(innerResult);
+                result = (result || []).concat(innerResult_1);
             }
         }
         return result;

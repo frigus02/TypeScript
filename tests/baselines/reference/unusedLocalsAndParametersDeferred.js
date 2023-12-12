@@ -261,33 +261,33 @@ var o = {
     })
 };
 o;
-var _loop_1 = function (i) {
+var _loop_1 = function (i_1) {
     defered(function () {
-        i;
+        i_1;
     });
 };
 // in a for..in statment
-for (var i in o) {
-    _loop_1(i);
+for (var i_1 in o) {
+    _loop_1(i_1);
 }
-var _loop_2 = function (i) {
+var _loop_2 = function (i_2) {
     defered(function () {
-        i;
+        i_2;
     });
 };
 // in a for..of statment
 for (var _i = 0, _a = [1, 2, 3]; _i < _a.length; _i++) {
-    var i = _a[_i];
-    _loop_2(i);
+    var i_2 = _a[_i];
+    _loop_2(i_2);
 }
-var _loop_3 = function (i) {
+var _loop_3 = function (i_3) {
     defered(function () {
-        i;
+        i_3;
     });
 };
 // in a for. statment
-for (var i = 0; i < 10; i++) {
-    _loop_3(i);
+for (var i_3 = 0; i_3 < 10; i_3++) {
+    _loop_3(i_3);
 }
 // in a block
 var condition = false;

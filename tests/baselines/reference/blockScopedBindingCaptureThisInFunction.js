@@ -12,12 +12,12 @@
 //// [blockScopedBindingCaptureThisInFunction.js]
 // https://github.com/Microsoft/TypeScript/issues/11038
 (function () { return function () {
-    var _loop_1 = function (someKey) {
+    var _loop_1 = function (someKey_1) {
         this_1.helloWorld();
-        (function () { return someKey; });
+        (function () { return someKey_1; });
     };
     var this_1 = this;
-    for (var someKey in {}) {
-        _loop_1(someKey);
+    for (var someKey_1 in {}) {
+        _loop_1(someKey_1);
     }
 }; });

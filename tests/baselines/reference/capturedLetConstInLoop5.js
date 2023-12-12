@@ -371,8 +371,8 @@ function foo3(x) {
     use(v);
 }
 function foo4(x) {
-    var _loop_6 = function (y) {
-        v = y;
+    var _loop_6 = function (y_1) {
+        v = y_1;
         var x_6 = 1;
         (function () { return x_6 + v; });
         (function () { return x_6 + v; });
@@ -381,25 +381,25 @@ function foo4(x) {
         }
     };
     var v;
-    for (var y = 0; y < 1; ++y) {
-        var state_6 = _loop_6(y);
+    for (var y_1 = 0; y_1 < 1; ++y_1) {
+        var state_6 = _loop_6(y_1);
         if (typeof state_6 === "object")
             return state_6.value;
     }
     use(v);
 }
 function foo5(x) {
-    var _loop_7 = function (x_7, y) {
+    var _loop_7 = function (x_7, y_2) {
         v = x_7;
-        (function () { return x_7 + y + v; });
-        (function () { return x_7 + y + v; });
+        (function () { return x_7 + y_2 + v; });
+        (function () { return x_7 + y_2 + v; });
         if (x_7 == 1) {
             return { value: void 0 };
         }
     };
     var v;
-    for (var x_7 = 0, y = 1; x_7 < 1; ++x_7) {
-        var state_7 = _loop_7(x_7, y);
+    for (var x_7 = 0, y_2 = 1; x_7 < 1; ++x_7) {
+        var state_7 = _loop_7(x_7, y_2);
         if (typeof state_7 === "object")
             return state_7.value;
     }
@@ -407,10 +407,10 @@ function foo5(x) {
 }
 function foo6(x) {
     var _loop_8 = function () {
-        var x_8, y;
+        var x_8, y_3;
         v = x_8;
-        (function () { return x_8 + y + v; });
-        (function () { return x_8 + y + v; });
+        (function () { return x_8 + y_3 + v; });
+        (function () { return x_8 + y_3 + v; });
         if (x_8 == 1) {
             return { value: void 0 };
         }
@@ -426,10 +426,10 @@ function foo6(x) {
 }
 function foo7(x) {
     var _loop_9 = function () {
-        var x_9, y;
+        var x_9, y_4;
         v = x_9;
-        (function () { return x_9 + y + v; });
-        (function () { return x_9 + y + v; });
+        (function () { return x_9 + y_4 + v; });
+        (function () { return x_9 + y_4 + v; });
         if (x_9 == 1) {
             return { value: void 0 };
         }
@@ -443,18 +443,18 @@ function foo7(x) {
     use(v);
 }
 function foo8(x) {
-    var _loop_10 = function (y) {
+    var _loop_10 = function (y_5) {
         var x_10 = 1;
         v = x_10;
-        (function () { return x_10 + y + v; });
-        (function () { return x_10 + y + v; });
+        (function () { return x_10 + y_5 + v; });
+        (function () { return x_10 + y_5 + v; });
         if (x_10 == 1) {
             return { value: void 0 };
         }
     };
     var v;
-    for (var y = 0; y < 1; ++y) {
-        var state_10 = _loop_10(y);
+    for (var y_5 = 0; y_5 < 1; ++y_5) {
+        var state_10 = _loop_10(y_5);
         if (typeof state_10 === "object")
             return state_10.value;
     }
@@ -549,8 +549,8 @@ function foo3_c(x) {
     use(v);
 }
 function foo4_c(x) {
-    var _loop_16 = function (y) {
-        v = y;
+    var _loop_16 = function (y_6) {
+        v = y_6;
         var x_16 = 1;
         (function () { return x_16 + v; });
         (function () { return x_16 + v; });
@@ -559,25 +559,25 @@ function foo4_c(x) {
         }
     };
     var v;
-    for (var y = 0; y < 1;) {
-        var state_16 = _loop_16(y);
+    for (var y_6 = 0; y_6 < 1;) {
+        var state_16 = _loop_16(y_6);
         if (typeof state_16 === "object")
             return state_16.value;
     }
     use(v);
 }
 function foo5_c(x) {
-    var _loop_17 = function (x_17, y) {
+    var _loop_17 = function (x_17, y_7) {
         v = x_17;
-        (function () { return x_17 + y + v; });
-        (function () { return x_17 + y + v; });
+        (function () { return x_17 + y_7 + v; });
+        (function () { return x_17 + y_7 + v; });
         if (x_17 == 1) {
             return { value: void 0 };
         }
     };
     var v;
-    for (var x_17 = 0, y = 1; x_17 < 1;) {
-        var state_17 = _loop_17(x_17, y);
+    for (var x_17 = 0, y_7 = 1; x_17 < 1;) {
+        var state_17 = _loop_17(x_17, y_7);
         if (typeof state_17 === "object")
             return state_17.value;
     }
@@ -585,10 +585,10 @@ function foo5_c(x) {
 }
 function foo6_c(x) {
     var _loop_18 = function () {
-        var x_18 = 1, y = 1;
+        var x_18 = 1, y_8 = 1;
         v = x_18;
-        (function () { return x_18 + y + v; });
-        (function () { return x_18 + y + v; });
+        (function () { return x_18 + y_8 + v; });
+        (function () { return x_18 + y_8 + v; });
         if (x_18 == 1) {
             return { value: void 0 };
         }
@@ -603,10 +603,10 @@ function foo6_c(x) {
 }
 function foo7_c(x) {
     var _loop_19 = function () {
-        var x_19 = 1, y = 1;
+        var x_19 = 1, y_9 = 1;
         v = x_19;
-        (function () { return x_19 + y + v; });
-        (function () { return x_19 + y + v; });
+        (function () { return x_19 + y_9 + v; });
+        (function () { return x_19 + y_9 + v; });
         if (x_19 == 1) {
             return { value: void 0 };
         }
@@ -620,18 +620,18 @@ function foo7_c(x) {
     use(v);
 }
 function foo8_c(x) {
-    var _loop_20 = function (y) {
+    var _loop_20 = function (y_10) {
         var x_20 = 1;
         v = x_20;
-        (function () { return x_20 + y + v; });
-        (function () { return x_20 + y + v; });
+        (function () { return x_20 + y_10 + v; });
+        (function () { return x_20 + y_10 + v; });
         if (x_20 == 1) {
             return { value: void 0 };
         }
     };
     var v;
-    for (var y = 0; y < 1;) {
-        var state_20 = _loop_20(y);
+    for (var y_10 = 0; y_10 < 1;) {
+        var state_20 = _loop_20(y_10);
         if (typeof state_20 === "object")
             return state_20.value;
     }

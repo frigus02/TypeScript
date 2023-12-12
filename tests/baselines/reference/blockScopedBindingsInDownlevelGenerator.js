@@ -48,17 +48,17 @@ var __values = (this && this.__values) || function(o) {
     throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 };
 function a() {
-    var _loop_1, _a, _b, i, e_1_1;
+    var _loop_1, _a, _b, i_1, e_1_1;
     var e_1, _c;
     return __generator(this, function (_d) {
         switch (_d.label) {
             case 0:
-                _loop_1 = function (i) {
+                _loop_1 = function (i_1) {
                     return __generator(this, function (_e) {
                         switch (_e.label) {
                             case 0:
-                                (function () { return i; })();
-                                return [4 /*yield*/, i];
+                                (function () { return i_1; })();
+                                return [4 /*yield*/, i_1];
                             case 1:
                                 _e.sent();
                                 return [2 /*return*/];
@@ -72,8 +72,8 @@ function a() {
                 _d.label = 2;
             case 2:
                 if (!!_b.done) return [3 /*break*/, 5];
-                i = _b.value;
-                return [5 /*yield**/, _loop_1(i)];
+                i_1 = _b.value;
+                return [5 /*yield**/, _loop_1(i_1)];
             case 3:
                 _d.sent();
                 _d.label = 4;

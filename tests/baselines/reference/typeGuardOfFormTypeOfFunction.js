@@ -146,10 +146,10 @@ function f12(x) {
 // Repro from #18238
 function f100(obj, keys) {
     for (var _i = 0, keys_1 = keys; _i < keys_1.length; _i++) {
-        var k = keys_1[_i];
-        var item = obj[k];
-        if (typeof item == 'function')
-            item.call(obj);
+        var k_1 = keys_1[_i];
+        var item_1 = obj[k_1];
+        if (typeof item_1 == 'function')
+            item_1.call(obj);
     }
 }
 // Repro from #49316

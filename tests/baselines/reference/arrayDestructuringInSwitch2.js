@@ -25,7 +25,7 @@ function foo(x) {
         case "b":
             return 1;
         default:
-            var n = a[0];
+            var n_1 = a[0];
             return a;
     }
 }

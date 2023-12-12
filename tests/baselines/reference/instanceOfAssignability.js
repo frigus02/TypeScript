@@ -142,49 +142,49 @@ function fn1(x) {
     if (x instanceof Array) {
         // 1.5: y: Array<number>|Array<string>
         // Want: y: Array<number>|Array<string>
-        var y = x;
+        var y_1 = x;
     }
 }
 function fn2(x) {
     if (x instanceof Derived1) {
         // 1.5: y: Base
         // Want: y: Derived1
-        var y = x;
+        var y_2 = x;
     }
 }
 function fn3(x) {
     if (x instanceof Derived2) {
         // 1.5: y: Derived2
         // Want: Derived2
-        var y = x;
+        var y_3 = x;
     }
 }
 function fn4(x) {
     if (x instanceof Derived1) {
         // 1.5: y: {}
         // Want: Derived1
-        var y = x;
+        var y_4 = x;
     }
 }
 function fn5(x) {
     if (x instanceof Derived2) {
         // 1.5: y: Derived1
         // Want: ???
-        var y = x;
+        var y_5 = x;
     }
 }
 function fn6(x) {
     if (x instanceof Giraffe) {
         // 1.5: y: Derived1
         // Want: ???
-        var y = x;
+        var y_6 = x;
     }
 }
 function fn7(x) {
     if (x instanceof Array) {
         // 1.5: y: Array<number>|Array<string>
         // Want: y: Array<number>|Array<string>
-        var y = x;
+        var y_7 = x;
     }
 }
 var ABC = /** @class */ (function () {
@@ -194,6 +194,6 @@ var ABC = /** @class */ (function () {
 }());
 function fn8(x) {
     if (x instanceof ABC) {
-        var y = x;
+        var y_8 = x;
     }
 }

@@ -32,8 +32,8 @@ catch (e) {
 //// [controlFlowAliasingCatchVariables.js]
 try { }
 catch (e) {
-    var isString = typeof e === 'string';
-    if (isString) {
+    var isString_1 = typeof e === 'string';
+    if (isString_1) {
         e.toUpperCase(); // e string
     }
     if (typeof e === 'string') {
@@ -42,9 +42,9 @@ catch (e) {
 }
 try { }
 catch (e) {
-    var isString = typeof e === 'string';
+    var isString_2 = typeof e === 'string';
     e = 1;
-    if (isString) {
+    if (isString_2) {
         e.toUpperCase(); // e any/unknown
     }
     if (typeof e === 'string') {

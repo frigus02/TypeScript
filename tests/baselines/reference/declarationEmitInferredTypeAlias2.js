@@ -18,7 +18,7 @@ export { v, bar }
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 {
-    var obj = true;
+    var obj_1 = true;
 }
 //// [1.js]
 "use strict";

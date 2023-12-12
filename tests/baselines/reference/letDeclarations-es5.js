@@ -22,4 +22,4 @@ var l7 = false;
 var l8 = 23;
 var l9 = 0, l10 = "", l11 = null;
 for (var l11_1 in {}) { }
-for (var l12 = 0; l12 < 9; l12++) { }
+for (var l12_1 = 0; l12_1 < 9; l12_1++) { }

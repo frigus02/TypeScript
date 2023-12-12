@@ -139,18 +139,18 @@ function namedClasses(x) {
 }
 function multipleClasses(x) {
     if ("a" in x) {
-        var y = x.a;
+        var y_1 = x.a;
     }
     else {
-        var z = x.b;
+        var z_1 = x.b;
     }
 }
 function anonymousClasses(x) {
     if ("a" in x) {
-        var y = x.a;
+        var y_2 = x.a;
     }
     else {
-        var z = x.b;
+        var z_2 = x.b;
     }
 }
 var AWithOptionalProp = /** @class */ (function () {
@@ -168,17 +168,17 @@ function positiveTestClassesWithOptionalProperties(x) {
         x.a = "1";
     }
     else {
-        var y = x instanceof AWithOptionalProp
+        var y_3 = x instanceof AWithOptionalProp
             ? x.a
             : x.b;
     }
 }
 function inParenthesizedExpression(x) {
     if ("a" in (x)) {
-        var y = x.a;
+        var y_4 = x.a;
     }
     else {
-        var z = x.b;
+        var z_3 = x.b;
     }
 }
 var ClassWithUnionProp = /** @class */ (function () {
@@ -188,10 +188,10 @@ var ClassWithUnionProp = /** @class */ (function () {
 }());
 function inProperty(x) {
     if ("a" in x.prop) {
-        var y = x.prop.a;
+        var y_5 = x.prop.a;
     }
     else {
-        var z = x.prop.b;
+        var z_4 = x.prop.b;
     }
 }
 var NestedClassWithProp = /** @class */ (function () {
@@ -201,10 +201,10 @@ var NestedClassWithProp = /** @class */ (function () {
 }());
 function innestedProperty(x) {
     if ("a" in x.outer.prop) {
-        var y = x.outer.prop.a;
+        var y_6 = x.outer.prop.a;
     }
     else {
-        var z = x.outer.prop.b;
+        var z_5 = x.outer.prop.b;
     }
 }
 var InMemberOfClass = /** @class */ (function () {
@@ -212,10 +212,10 @@ var InMemberOfClass = /** @class */ (function () {
     }
     InMemberOfClass.prototype.inThis = function () {
         if ("a" in this.prop) {
-            var y = this.prop.a;
+            var y_7 = this.prop.a;
         }
         else {
-            var z = this.prop.b;
+            var z_6 = this.prop.b;
         }
     };
     return InMemberOfClass;
@@ -226,7 +226,7 @@ var SelfAssert = /** @class */ (function () {
     }
     SelfAssert.prototype.inThis = function () {
         if ("a" in this) {
-            var y = this.a;
+            var y_8 = this.a;
         }
         else {
         }

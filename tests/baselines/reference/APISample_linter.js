@@ -95,19 +95,19 @@ function delint(sourceFile) {
                 }
                 break;
             case ts.SyntaxKind.IfStatement:
-                var ifStatement = node;
-                if (ifStatement.thenStatement.kind !== ts.SyntaxKind.Block) {
-                    report(ifStatement.thenStatement, "An if statement's contents should be wrapped in a block body.");
+                var ifStatement_1 = node;
+                if (ifStatement_1.thenStatement.kind !== ts.SyntaxKind.Block) {
+                    report(ifStatement_1.thenStatement, "An if statement's contents should be wrapped in a block body.");
                 }
-                if (ifStatement.elseStatement &&
-                    ifStatement.elseStatement.kind !== ts.SyntaxKind.Block &&
-                    ifStatement.elseStatement.kind !== ts.SyntaxKind.IfStatement) {
-                    report(ifStatement.elseStatement, "An else statement's contents should be wrapped in a block body.");
+                if (ifStatement_1.elseStatement &&
+                    ifStatement_1.elseStatement.kind !== ts.SyntaxKind.Block &&
+                    ifStatement_1.elseStatement.kind !== ts.SyntaxKind.IfStatement) {
+                    report(ifStatement_1.elseStatement, "An else statement's contents should be wrapped in a block body.");
                 }
                 break;
             case ts.SyntaxKind.BinaryExpression:
-                var op = node.operatorToken.kind;
-                if (op === ts.SyntaxKind.EqualsEqualsToken || op == ts.SyntaxKind.ExclamationEqualsToken) {
+                var op_1 = node.operatorToken.kind;
+                if (op_1 === ts.SyntaxKind.EqualsEqualsToken || op_1 == ts.SyntaxKind.ExclamationEqualsToken) {
                     report(node, "Use '===' and '!=='.");
                 }
                 break;

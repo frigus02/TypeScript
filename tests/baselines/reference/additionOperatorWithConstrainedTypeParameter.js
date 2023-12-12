@@ -22,8 +22,8 @@ function sum(n, v, k) {
 }
 function realSum(n, vs, k) {
     for (var _i = 0, vs_1 = vs; _i < vs_1.length; _i++) {
-        var v = vs_1[_i];
-        n = n + v[k];
-        n += v[k];
+        var v_1 = vs_1[_i];
+        n = n + v_1[k];
+        n += v_1[k];
     }
 }

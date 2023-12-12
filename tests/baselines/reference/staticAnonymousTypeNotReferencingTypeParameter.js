@@ -175,10 +175,10 @@ var tessst;
      */
     function funkyFor(array, callback) {
         if (array) {
-            for (var i = 0, len = array.length; i < len; i++) {
-                var result = callback(array[i], i);
-                if (result) {
-                    return result;
+            for (var i_1 = 0, len_1 = array.length; i_1 < len_1; i_1++) {
+                var result_1 = callback(array[i_1], i_1);
+                if (result_1) {
+                    return result_1;
                 }
             }
         }

@@ -39,6 +39,6 @@ var c1 = require("./c"); // resolves to c.ts
 var x2 = c1.a;
 var c2 = require("./c.json"); // resolves to c.json
 if (x2) {
-    var b = c2.b;
-    var x = (c1.b === b);
+    var b_1 = c2.b;
+    var x_1 = (c1.b === b_1);
 }

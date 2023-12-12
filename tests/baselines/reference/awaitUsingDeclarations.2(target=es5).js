@@ -94,11 +94,11 @@ var _a, _b;
 {
     var env_1 = { stack: [], error: void 0, hasError: false };
     try {
-        var d1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.asyncDispose] = function () {
+        var d1_1 = __addDisposableResource(env_1, (_a = {}, _a[Symbol.asyncDispose] = function () {
             return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                 return [2 /*return*/];
             }); });
-        }, _a), true), d2 = __addDisposableResource(env_1, (_b = {}, _b[Symbol.asyncDispose] = function () {
+        }, _a), true), d2_1 = __addDisposableResource(env_1, (_b = {}, _b[Symbol.asyncDispose] = function () {
             return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
                 return [2 /*return*/];
             }); });

@@ -65,12 +65,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Bluebird = require("bluebird");
 function a() {
     return __awaiter(this, void 0, Bluebird, function () {
-        var b, error_1;
+        var b_1, error_1;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    b = function b() {
+                    b_1 = function b() {
                         return __awaiter(this, void 0, Bluebird, function () {
                             var error_2;
                             return __generator(this, function (_a) {
@@ -89,7 +89,7 @@ function a() {
                             });
                         });
                     };
-                    return [4 /*yield*/, b()];
+                    return [4 /*yield*/, b_1()];
                 case 1:
                     _a.sent(); // -- or remove this and it compiles
                     return [3 /*break*/, 3];

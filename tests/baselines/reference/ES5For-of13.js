@@ -7,7 +7,7 @@ for (let v of ['a', 'b', 'c']) {
 
 //// [ES5For-of13.js]
 for (var _i = 0, _a = ['a', 'b', 'c']; _i < _a.length; _i++) {
-    var v = _a[_i];
-    var x = v;
+    var v_1 = _a[_i];
+    var x = v_1;
 }
 //# sourceMappingURL=ES5For-of13.js.map

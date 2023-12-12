@@ -188,8 +188,8 @@ function watch(rootFileNames, options) {
         allDiagnostics.forEach(function (diagnostic) {
             var message = ts.flattenDiagnosticMessageText(diagnostic.messageText, "\n");
             if (diagnostic.file) {
-                var _a = diagnostic.file.getLineAndCharacterOfPosition(diagnostic.start), line = _a.line, character = _a.character;
-                console.log("  Error ".concat(diagnostic.file.fileName, " (").concat(line + 1, ",").concat(character + 1, "): ").concat(message));
+                var _a = diagnostic.file.getLineAndCharacterOfPosition(diagnostic.start), line_1 = _a.line, character_1 = _a.character;
+                console.log("  Error ".concat(diagnostic.file.fileName, " (").concat(line_1 + 1, ",").concat(character_1 + 1, "): ").concat(message));
             }
             else {
                 console.log("  Error: ".concat(message));

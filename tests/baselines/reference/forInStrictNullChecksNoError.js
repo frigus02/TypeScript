@@ -10,8 +10,8 @@ function f(x: { [key: string]: number; } | null | undefined) {
 
 //// [forInStrictNullChecksNoError.js]
 function f(x) {
-    for (var key in x) { // 1
-        console.log(x[key]); // 2
+    for (var key_1 in x) { // 1
+        console.log(x[key_1]); // 2
     }
     x["no"]; // should still error
 }

@@ -309,26 +309,26 @@ class A53267 {
 function f10(x) {
     var isString = typeof x === "string";
     if (isString) {
-        var t = x;
+        var t_1 = x;
     }
     else {
-        var t = x;
+        var t_2 = x;
     }
 }
 function f11(x) {
     var isString = typeof x === "string";
     if (isString) {
-        var t = x;
+        var t_3 = x;
     }
 }
 function f12(x) {
     var isString = typeof x === "string";
     var isNumber = typeof x === "number";
     if (isString || isNumber) {
-        var t = x;
+        var t_4 = x;
     }
     else {
-        var t = x;
+        var t_5 = x;
     }
 }
 function f13(x) {
@@ -336,10 +336,10 @@ function f13(x) {
     var isNumber = typeof x === "number";
     var isStringOrNumber = isString || isNumber;
     if (isStringOrNumber) {
-        var t = x;
+        var t_6 = x;
     }
     else {
-        var t = x;
+        var t_7 = x;
     }
 }
 function f14(x) {
@@ -349,27 +349,27 @@ function f14(x) {
 function f15(obj) {
     var isString = typeof obj.x === 'string';
     if (isString) {
-        var s = obj.x;
+        var s_1 = obj.x;
     }
 }
 function f16(obj) {
     var isString = typeof obj.x === 'string';
     obj = { x: 42 };
     if (isString) {
-        var s = obj.x; // Not narrowed because of is assigned in function body
+        var s_2 = obj.x; // Not narrowed because of is assigned in function body
     }
 }
 function f17(obj) {
     var isString = typeof obj[0] === 'string';
     if (isString) {
-        var s = obj[0];
+        var s_3 = obj[0];
     }
 }
 function f18(obj) {
     var isString = typeof obj[0] === 'string';
     obj = [42];
     if (isString) {
-        var s = obj[0]; // Not narrowed because of is assigned in function body
+        var s_4 = obj[0]; // Not narrowed because of is assigned in function body
     }
 }
 function f20(obj) {
@@ -502,9 +502,9 @@ var C10 = /** @class */ (function () {
         var thisX_isString = typeof this.x === 'string';
         var xIsString = typeof x === 'string';
         if (thisX_isString && xIsString) {
-            var s = void 0;
-            s = this.x;
-            s = x;
+            var s_5;
+            s_5 = this.x;
+            s_5 = x;
         }
     }
     return C10;
@@ -516,9 +516,9 @@ var C11 = /** @class */ (function () {
         var xIsString = typeof x === 'string';
         if (thisX_isString && xIsString) {
             // Some narrowings may be invalidated due to later assignments.
-            var s = void 0;
-            s = this.x;
-            s = x;
+            var s_6;
+            s_6 = this.x;
+            s_6 = x;
         }
         else {
             this.x = 10;
@@ -532,24 +532,24 @@ function f40(obj) {
     var kind = obj.kind;
     var isFoo = kind == 'foo';
     if (isFoo && obj.foo) {
-        var t = obj.foo;
+        var t_8 = obj.foo;
     }
 }
 function gg2(obj) {
     if (obj.kind === 'str') {
-        var t = obj.payload;
+        var t_9 = obj.payload;
     }
     else {
-        var t = obj.payload;
+        var t_10 = obj.payload;
     }
 }
 function foo(_a) {
     var kind = _a.kind, payload = _a.payload;
     if (kind === 'str') {
-        var t = payload;
+        var t_11 = payload;
     }
     else {
-        var t = payload;
+        var t_12 = payload;
     }
 }
 // Repro from #45830
@@ -573,7 +573,7 @@ var A53267 = /** @class */ (function () {
     A53267.prototype.foo = function () {
         var isNumber = Utils.isDefined(this.testNumber);
         if (isNumber) {
-            var x = this.testNumber;
+            var x_1 = this.testNumber;
         }
     };
     return A53267;

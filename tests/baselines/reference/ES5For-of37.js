@@ -33,13 +33,13 @@ var __values = (this && this.__values) || function(o) {
 var e_1, _a, e_2, _b;
 try {
     for (var _c = __values([0, 1, 2, 3, 4]), _d = _c.next(); !_d.done; _d = _c.next()) {
-        var i = _d.value;
+        var i_1 = _d.value;
         try {
             try {
                 // Ensure catch binding for the following loop is reset per iteration:
                 for (var _e = (e_2 = void 0, __values([1, 2, 3])), _f = _e.next(); !_f.done; _f = _e.next()) {
-                    var j = _f.value;
-                    if (i === 2) {
+                    var j_1 = _f.value;
+                    if (i_1 === 2) {
                         throw new Error('ERR');
                     }
                 }
@@ -51,10 +51,10 @@ try {
                 }
                 finally { if (e_2) throw e_2.error; }
             }
-            console.log(i);
+            console.log(i_1);
         }
         catch (err) {
-            console.log('E %s %s', i, err);
+            console.log('E %s %s', i_1, err);
         }
     }
 }

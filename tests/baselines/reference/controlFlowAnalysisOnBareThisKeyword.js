@@ -23,6 +23,6 @@ function bigger() {
 }
 function bar() {
     if (typeof this === "string") {
-        var x = this;
+        var x_1 = this;
     }
 }

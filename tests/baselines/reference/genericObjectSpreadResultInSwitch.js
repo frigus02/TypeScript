@@ -57,13 +57,13 @@ switch (params.tag) {
     case 'a': {
         // TS 4.2: number
         // TS 4.3: string | number
-        var result = getType(params).type;
+        var result_1 = getType(params).type;
         break;
     }
     case 'b': {
         // TS 4.2: string
         // TS 4.3: string | number
-        var result = getType(params).type;
+        var result_2 = getType(params).type;
         break;
     }
 }

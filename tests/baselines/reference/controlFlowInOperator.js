@@ -94,27 +94,27 @@ function uniqueID_54790(id, seenIDs) {
     if (!(id in seenIDs)) {
         return id;
     }
-    for (var i = 1; i < Number.MAX_VALUE; i++) {
-        var newID = "".concat(id, "-").concat(i);
-        if (!(newID in seenIDs)) {
-            return newID;
+    for (var i_1 = 1; i_1 < Number.MAX_VALUE; i_1++) {
+        var newID_1 = "".concat(id, "-").concat(i_1);
+        if (!(newID_1 in seenIDs)) {
+            return newID_1;
         }
     }
     throw Error("heat death of the universe");
 }
 function uniqueID_54790_2(id, seenIDs) {
     id = "a";
-    for (var i = 1; i < 3; i++) {
-        var newID = "".concat(id);
-        if (newID in seenIDs) {
+    for (var i_2 = 1; i_2 < 3; i_2++) {
+        var newID_2 = "".concat(id);
+        if (newID_2 in seenIDs) {
         }
     }
 }
 function uniqueID_54790_3(id, seenIDs) {
     id = "a";
-    for (var i = 1; i < 3; i++) {
-        var newID = id;
-        if (newID in seenIDs) {
+    for (var i_3 = 1; i_3 < 3; i_3++) {
+        var newID_3 = id;
+        if (newID_3 in seenIDs) {
         }
     }
 }

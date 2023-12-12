@@ -51,10 +51,10 @@ var foo = undefined;
 if (isBoth(foo)) {
     switch (foo.kind) {
         case Kind.A:
-            var myA = foo; // Should not be an error
+            var myA_1 = foo; // Should not be an error
             break;
         case Kind.B:
-            var myB = foo;
+            var myB_1 = foo;
             break;
     }
 }

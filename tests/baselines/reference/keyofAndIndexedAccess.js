@@ -810,18 +810,18 @@ function f53(obj, k, s, n) {
     var x3 = obj[k];
 }
 function f54(obj, key) {
-    for (var s in obj[key]) {
+    for (var s_1 in obj[key]) {
     }
     var b = "foo" in obj[key];
 }
 function f55(obj, key) {
-    for (var s in obj[key]) {
+    for (var s_2 in obj[key]) {
     }
     var b = "foo" in obj[key];
 }
 function f60(source, target) {
-    for (var k in source) {
-        target[k] = source[k];
+    for (var k_1 in source) {
+        target[k_1] = source[k_1];
     }
 }
 function f70(func) {
@@ -955,8 +955,8 @@ function path(obj) {
     }
     var result = obj;
     for (var _a = 0, keys_1 = keys; _a < keys_1.length; _a++) {
-        var k = keys_1[_a];
-        result = result[k];
+        var k_2 = keys_1[_a];
+        result = result[k_2];
     }
     return result;
 }
@@ -994,10 +994,10 @@ function onChangeGenericFunction(handler) {
 // Repro from #13285
 function updateIds(obj, idFields, idMapping) {
     for (var _i = 0, idFields_1 = idFields; _i < idFields_1.length; _i++) {
-        var idField = idFields_1[_i];
-        var newId = idMapping[obj[idField]];
-        if (newId) {
-            obj[idField] = newId;
+        var idField_1 = idFields_1[_i];
+        var newId_1 = idMapping[obj[idField_1]];
+        if (newId_1) {
+            obj[idField_1] = newId_1;
         }
     }
     return obj;
@@ -1053,9 +1053,9 @@ var AnotherSampleClass = /** @class */ (function (_super) {
 new AnotherSampleClass({});
 // Positive repro from #17166
 function f3(t, k, tk) {
-    for (var key in t) {
-        key = k; // ok, K ==> keyof T
-        t[key] = tk; // ok, T[K] ==> T[keyof T]
+    for (var key_1 in t) {
+        key_1 = k; // ok, K ==> keyof T
+        t[key_1] = tk; // ok, T[K] ==> T[keyof T]
     }
 }
 var Flag;

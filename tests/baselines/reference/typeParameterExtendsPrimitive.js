@@ -46,8 +46,8 @@ function g(i) {
 function h(array, prop) {
     var result = 0;
     for (var _i = 0, array_1 = array; _i < array_1.length; _i++) {
-        var v = array_1[_i];
-        result += v[prop];
+        var v_1 = array_1[_i];
+        result += v_1[prop];
     }
     return result;
 }

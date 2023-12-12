@@ -80,53 +80,53 @@ function getMultiRobots() {
     return multiRobots;
 }
 for (var _i = 0, robots_1 = robots; _i < robots_1.length; _i++) {
-    var nameA = robots_1[_i].name;
-    console.log(nameA);
+    var nameA_1 = robots_1[_i].name;
+    console.log(nameA_1);
 }
 for (var _a = 0, _b = getRobots(); _a < _b.length; _a++) {
-    var nameA = _b[_a].name;
-    console.log(nameA);
+    var nameA_2 = _b[_a].name;
+    console.log(nameA_2);
 }
 for (var _c = 0, _d = [{ name: "mower", skill: "mowing" }, { name: "trimmer", skill: "trimming" }]; _c < _d.length; _c++) {
-    var nameA = _d[_c].name;
-    console.log(nameA);
+    var nameA_3 = _d[_c].name;
+    console.log(nameA_3);
 }
 for (var _e = 0, multiRobots_1 = multiRobots; _e < multiRobots_1.length; _e++) {
-    var _f = multiRobots_1[_e].skills, primaryA = _f.primary, secondaryA = _f.secondary;
-    console.log(primaryA);
+    var _f = multiRobots_1[_e].skills, primaryA_1 = _f.primary, secondaryA_1 = _f.secondary;
+    console.log(primaryA_1);
 }
 for (var _g = 0, _h = getMultiRobots(); _g < _h.length; _g++) {
-    var _j = _h[_g].skills, primaryA = _j.primary, secondaryA = _j.secondary;
-    console.log(primaryA);
+    var _j = _h[_g].skills, primaryA_2 = _j.primary, secondaryA_2 = _j.secondary;
+    console.log(primaryA_2);
 }
 for (var _k = 0, _l = [{ name: "mower", skills: { primary: "mowing", secondary: "none" } },
     { name: "trimmer", skills: { primary: "trimming", secondary: "edging" } }]; _k < _l.length; _k++) {
-    var _m = _l[_k].skills, primaryA = _m.primary, secondaryA = _m.secondary;
-    console.log(primaryA);
+    var _m = _l[_k].skills, primaryA_3 = _m.primary, secondaryA_3 = _m.secondary;
+    console.log(primaryA_3);
 }
 for (var _o = 0, robots_2 = robots; _o < robots_2.length; _o++) {
-    var _p = robots_2[_o], nameA = _p.name, skillA = _p.skill;
-    console.log(nameA);
+    var _p = robots_2[_o], nameA_4 = _p.name, skillA_1 = _p.skill;
+    console.log(nameA_4);
 }
 for (var _q = 0, _r = getRobots(); _q < _r.length; _q++) {
-    var _s = _r[_q], nameA = _s.name, skillA = _s.skill;
-    console.log(nameA);
+    var _s = _r[_q], nameA_5 = _s.name, skillA_2 = _s.skill;
+    console.log(nameA_5);
 }
 for (var _t = 0, _u = [{ name: "mower", skill: "mowing" }, { name: "trimmer", skill: "trimming" }]; _t < _u.length; _t++) {
-    var _v = _u[_t], nameA = _v.name, skillA = _v.skill;
-    console.log(nameA);
+    var _v = _u[_t], nameA_6 = _v.name, skillA_3 = _v.skill;
+    console.log(nameA_6);
 }
 for (var _w = 0, multiRobots_2 = multiRobots; _w < multiRobots_2.length; _w++) {
-    var _x = multiRobots_2[_w], nameA = _x.name, _y = _x.skills, primaryA = _y.primary, secondaryA = _y.secondary;
-    console.log(nameA);
+    var _x = multiRobots_2[_w], nameA_7 = _x.name, _y = _x.skills, primaryA_4 = _y.primary, secondaryA_4 = _y.secondary;
+    console.log(nameA_7);
 }
 for (var _z = 0, _0 = getMultiRobots(); _z < _0.length; _z++) {
-    var _1 = _0[_z], nameA = _1.name, _2 = _1.skills, primaryA = _2.primary, secondaryA = _2.secondary;
-    console.log(nameA);
+    var _1 = _0[_z], nameA_8 = _1.name, _2 = _1.skills, primaryA_5 = _2.primary, secondaryA_5 = _2.secondary;
+    console.log(nameA_8);
 }
 for (var _3 = 0, _4 = [{ name: "mower", skills: { primary: "mowing", secondary: "none" } },
     { name: "trimmer", skills: { primary: "trimming", secondary: "edging" } }]; _3 < _4.length; _3++) {
-    var _5 = _4[_3], nameA = _5.name, _6 = _5.skills, primaryA = _6.primary, secondaryA = _6.secondary;
-    console.log(nameA);
+    var _5 = _4[_3], nameA_9 = _5.name, _6 = _5.skills, primaryA_6 = _6.primary, secondaryA_6 = _6.secondary;
+    console.log(nameA_9);
 }
 //# sourceMappingURL=sourceMapValidationDestructuringForOfObjectBindingPattern.js.map

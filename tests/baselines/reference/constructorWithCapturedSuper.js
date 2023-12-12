@@ -104,14 +104,14 @@ var C = /** @class */ (function (_super) {
     __extends(C, _super);
     function C(x) {
         var _this = _super.call(this) || this;
-        var _loop_1 = function (i) {
-            (function () { return i + x; });
+        var _loop_1 = function (i_1) {
+            (function () { return i_1 + x; });
             if (x === 1) {
                 return { value: _this };
             }
         };
-        for (var i = 0; i < 10; ++i) {
-            var state_1 = _loop_1(i);
+        for (var i_1 = 0; i_1 < 10; ++i_1) {
+            var state_1 = _loop_1(i_1);
             if (typeof state_1 === "object")
                 return state_1.value;
         }

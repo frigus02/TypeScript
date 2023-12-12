@@ -31,16 +31,16 @@ function kindIs(kind, is) {
 }
 var x = undefined;
 if (kindIs(x, "A")) {
-    var a = x;
+    var a_1 = x;
 }
 else {
-    var b = x;
+    var b_1 = x;
 }
 if (!kindIs(x, "B")) {
-    var c = x;
+    var c_1 = x;
 }
 else {
-    var d = x;
+    var d_1 = x;
 }
 
 

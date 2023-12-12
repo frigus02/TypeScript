@@ -10,10 +10,10 @@ for (let v of []) {
 
 //// [ES5For-of20.js]
 for (var _i = 0, _a = []; _i < _a.length; _i++) {
-    var v = _a[_i];
-    var v_1;
-    for (var _b = 0, _c = [v_2]; _b < _c.length; _b++) {
-        var v_2 = _c[_b];
-        var v_3;
+    var v_1 = _a[_i];
+    var v_2;
+    for (var _b = 0, _c = [v_3]; _b < _c.length; _b++) {
+        var v_3 = _c[_b];
+        var v_4;
     }
 }

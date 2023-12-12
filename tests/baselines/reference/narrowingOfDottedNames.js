@@ -199,6 +199,6 @@ while (target) {
         target.info.a_count = 3;
     }
     else if (target instanceof B2) {
-        var j = target.info;
+        var j_1 = target.info;
     }
 }

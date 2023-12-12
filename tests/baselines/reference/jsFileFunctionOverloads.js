@@ -112,8 +112,8 @@ function flatMap(array, iterable) {
     if (iterable === void 0) { iterable = identity; }
     /** @type {unknown[]} */
     var result = [];
-    for (var i = 0; i < array.length; i += 1) {
-        result.push.apply(result, /** @type {unknown[]} */ (iterable(array[i])));
+    for (var i_1 = 0; i_1 < array.length; i_1 += 1) {
+        result.push.apply(result, /** @type {unknown[]} */ (iterable(array[i_1])));
     }
     return result;
 }

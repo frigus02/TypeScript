@@ -636,7 +636,7 @@ function narrowingNarrows(x) {
             assertSymbol(x);
             return;
         case 'object':
-            var _ = x;
+            var _1 = x;
             return;
         case 'string':
             assertString(x);
@@ -648,7 +648,7 @@ function narrowingNarrows(x) {
             assertNever(x);
             return;
         default:
-            var _y = x;
+            var _y_1 = x;
             return;
     }
 }
@@ -667,7 +667,7 @@ function narrowingNarrows2(x) {
             assertNever(x);
             return;
         case 'object':
-            var _ = assertNever(x);
+            var _2 = assertNever(x);
             return;
         case 'string':
             assertString(x);
@@ -679,7 +679,7 @@ function narrowingNarrows2(x) {
             assertNever(x);
             return;
         default:
-            var _y = assertNever(x);
+            var _y_2 = assertNever(x);
             return;
     }
 }

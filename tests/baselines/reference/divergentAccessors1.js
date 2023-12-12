@@ -30,12 +30,12 @@
 "use strict";
 // Accessors in interfaces/types
 {
-    var ihgs = null;
-    ihgs.foo = "32";
-    var r_ihgs_foo = ihgs.foo;
+    var ihgs_1 = null;
+    ihgs_1.foo = "32";
+    var r_ihgs_foo_1 = ihgs_1.foo;
 }
 {
-    var t_hgs = null;
-    t_hgs.foo = "32";
-    var r_t_hgs_foo = t_hgs.foo;
+    var t_hgs_1 = null;
+    t_hgs_1.foo = "32";
+    var r_t_hgs_foo_1 = t_hgs_1.foo;
 }
